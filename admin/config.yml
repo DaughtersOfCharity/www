@@ -1,0 +1,31 @@
+backend:
+  name: github
+  repo: DaughtersOfCharity/www
+  branch: master
+publish_mode: editorial_workflow
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+collections:
+  - name: "pages_fr"
+    label: "Pages FR"
+    description: >
+      Pages en français du site
+    folder: "pages/fr/"
+    create: true
+    fields:
+      - {label: "Gabarit", name: "layout", widget: "hidden", default: "default"}
+      - {label: "Titre", name: "title", widget: "string", default: "Bienvenue"}
+      - {label: "I18n", name: "i18n-key", widget: "string", default: "home"}
+      - {label: "URL", name: "permalink", widget: "string", default: "/nouvelle-page"}
+      - {label: "Contenu", name: "body", widget: "markdown" }
+  - name: "pages_en"
+    label: "Pages EN"
+    description: >
+      Pages en anglais du site
+    folder: "pages/en/"
+    fields:
+      - {label: "Gabarit", name: "layout", widget: "hidden", default: "default"}
+      - {label: "Titre", name: "title", widget: "string", default: "Welcome"}
+      - {label: "I18n", name: "i18n-key", widget: "string", default: "home"}
+      - {label: "URL", name: "permalink", widget: "string", default: "/en/new-page"}
+      - {label: "Contenu", name: "body", widget: "markdown" }

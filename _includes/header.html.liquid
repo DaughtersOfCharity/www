@@ -1,0 +1,23 @@
+<div class="header">
+    <header id="top">
+        <a href="{{ page.base-url }}">Maison Saint Vincent</a>
+    </header>
+    <div class="menu">
+        {% if page.translation %}{% assign tran_lang = page.translation.locale | slice: 0,2 %}{% capture read_in %}{% t Lire en %} {%
+        if tran_lang == "en" %}{% t anglais %}{% else %}{% t français %}{% endif %}{% endcapture %}
+        {% endif %}
+        <nav class="nav">
+            <ul>{% assign menu = site.data.menu[lang] %}{% for item in menu %}{% assign li_url = item.url | prepend: page.base-url %}
+                <li {% if li_url == page.url %}class="active"{% endif %}>
+                    <a href="{{ li_url }}">{{ item.name }}</a>
+                </li>                    
+                {% endfor %}
+            </ul>
+        </nav>{% if page.translation %}
+        <div class="langue">
+            <a href="{{ page.translation.url }}">
+                <span class="sr-only">{{ read_in }}</span>
+                <img aria-hidden="true" alt="{{ page.translation.locale }}" src="/images/{{ tran_lang }}.png" />{{ tran_lang | upcase }}</a>
+        </div>{% endif %}
+    </div>
+</div>

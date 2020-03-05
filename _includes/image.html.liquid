@@ -1,0 +1,29 @@
+{% if include.caption %}
+    {% if include.type %}
+        {% cloudinary 
+            {{ include.type }} 
+            {{ include.path }}
+            alt="{{ include.alt | escape }}"
+            caption="{{ include.caption | markdownify }}"
+        %}
+    {% else %}
+        {% cloudinary 
+            {{ include.path }}
+            alt="{{ include.alt | escape }}"
+            caption="{{ include.caption | markdownify }}"
+        %}
+    {% endif %}
+{% else %}
+    {% if include.type %}
+        {% cloudinary 
+            {{ include.type }} 
+            {{ include.path }}
+            alt="{{ include.alt | escape }}"
+        %}
+    {% else %}
+        {% cloudinary 
+            {{ include.path }}
+            alt="{{ include.alt | escape }}"
+        %}
+    {% endif %}
+{% endif %}

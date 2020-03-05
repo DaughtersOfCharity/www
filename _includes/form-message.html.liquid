@@ -1,0 +1,26 @@
+<div class="container">
+	<form id="contact" name="formulaire-de-contact" netlify>
+		<fieldset>
+            <label for="name">{% t Votre nom %} ({% t requis %})</label>
+			<input id="name" placeholder="{% t Votre nom %}" type="text" required>
+		</fieldset>
+		<fieldset>
+            <label for="email">{% t Votre adresse email%} ({% t requis %})</label>
+			<input id="email" placeholder="{% t Votre adresse email %}" type="email">
+		</fieldset>
+		<fieldset>
+            <label for="email">{% t Votre numéro de téléphone %} ({% t requis %})</label>
+			<input id="phone" placeholder="{% t Votre numéro de téléphone %}" type="tel" required>
+		</fieldset>
+		<fieldset>
+            <label for="email">{% t Votre message %} ({% t requis %})</label>
+			<textarea id="message" placeholder="{% t Votre message %}" required></textarea>
+		</fieldset>
+		<fieldset>
+			<button name="submit" type="submit" id="contact-submit">{% t Envoyer %}</button>
+		</fieldset>
+        <p class="info">
+			{{ include.reassurance }}
+		</p>
+	</form>
+</div>

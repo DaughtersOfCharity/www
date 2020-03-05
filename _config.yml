@@ -1,0 +1,82 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Maison Saint Vincent
+email: your-email@example.com
+contact:
+  name: Maison Saint Vincent
+  address1: 24 rue d'Angoulême
+  address2: 24460 Château-L'Évêque
+  phone: "(+33) 05 53 54 30 71"
+baseurl: "/"
+url: https://www.maisonstvincent.fr
+permalink: :year/:month/:title/
+locale: fr_FR
+defaults:
+  - scope:
+      path: "pages/fr"
+    values:
+      lang: fr
+      locale: fr_FR
+      base-url: "/"
+  - scope:
+      path: "pages/en"
+    values:
+      locale: "en_US"
+      base-url: "/en/"
+  - scope:
+      path: "admin"
+    values:
+      sitemap: false
+
+# Images RWD
+cloudinary:
+  origin_url: https://www.maisonstvincent.fr
+  cloud_name: oasis-st-vincent
+  presets:
+    default:
+      min_width: 320
+      max_width: 1600
+      fallback_max_width: 800
+      steps: 5
+      sizes: "(min-width: 50rem) 50rem, 90vw"
+      attributes:
+        class: "p80"
+    onethird-right:
+      min_width: 110
+      max_width: 535
+      fallback_max_width: 300
+      steps: 3
+      sizes: "(min-width: 50rem) 17rem, 30vw"
+      attributes:
+        class: "p1-3 right"
+    onethird-left:
+      min_width: 110
+      max_width: 535
+      fallback_max_width: 300
+      steps: 3
+      sizes: "(min-width: 50rem) 17rem, 30vw"
+      attributes:
+        class: "p1-3 left"
+
+# Build settings
+markdown: kramdown
+
+include:
+  - "_headers"
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor

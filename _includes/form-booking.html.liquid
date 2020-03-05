@@ -1,0 +1,37 @@
+<div class="container">
+	<form id="contact" name="formulaire-de-reservation" netlify-honeypot="jean-jacques-walli" netlify>
+		<p class="hidden" aria-hidden="true">
+    		<label>Don’t fill this out: <input name="jean-jacques-walli"></label>
+  		</p>
+		<fieldset>
+            <label for="nom">{% t Votre nom %} ({% t requis %})</label>
+			<input id="nom" name="nom" placeholder="{% t Votre nom %}" type="text" required>
+		</fieldset>
+		<fieldset>
+            <label for="email">{% t Votre adresse email%}</label>
+			<input id="email" name="email" placeholder="{% t Votre adresse email %}" type="email">
+		</fieldset>
+		<fieldset>
+            <label for="telephone">{% t Votre numéro de téléphone %} ({% t requis %})</label>
+			<input id="telephone" name="telephone" placeholder="{% t Votre numéro de téléphone %}" type="tel" required>
+		</fieldset>
+		<fieldset>
+            <label for="a-partir-du">{% t Date d'arrivée %} ({% t requis %})</label>
+			<input type="date" name="a-partir-du" id="a-partir-du" placeholder="{% t Date d'arrivée %}" required>
+		</fieldset>
+		<fieldset>
+			<label for="jusqu-au">{% t Date de départ %}</label>
+			<input type="date" id="jusqu-au" name="jusqu-au" placeholder="{% t Date de départ %}" required>
+		</fieldset>
+		<fieldset>
+            <label for="email">{% t Votre message %} ({% t requis %})</label>
+			<textarea id="message" name="message" placeholder="{% t Votre message %}" required></textarea>
+		</fieldset>
+		<fieldset>
+			<button type="submit" id="contact-submit">{% t Envoyer %}</button>
+		</fieldset>
+		<p class="info">
+			{{ include.reassurance }}
+		</p>
+	</form>
+</div>

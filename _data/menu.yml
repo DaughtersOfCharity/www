@@ -1,0 +1,8 @@
+fr:
+  - url: ""
+    name: "Accueil"
+  - url: "infos"
+    name: "Infos pratiques"
+en:
+  - url: ""
+    name: "Home"

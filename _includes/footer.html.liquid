@@ -1,0 +1,11 @@
+<div class="footer">
+    <footer>
+        <img src="/images/arabesque.png" alt="Une arabesque de séparation typographique" aria-hidden="true" />
+        <p>
+            {{ site.contact.name }}
+            <br/>{{ site.contact.address1 }}
+            <br/>{{ site.contact.address2 }}
+            <br/>{% t Tél. : %} <a href="tel:{{ site.contact.phone | replace: " ", """" | replace: ")0", "" | replace: "(", "" }}">{{ site.contact.phone }}</a>
+        </p>
+    </footer>
+</div>
