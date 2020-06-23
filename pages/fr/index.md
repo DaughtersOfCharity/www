@@ -10,22 +10,14 @@ permalink: /
 
 ![Façade de l'entrée avec escalier vitré et nom de la Maison](/images/uploads/batiment-2.jpg "Entrée de la Maison Saint Vincent")
 
-La Maison Saint Vincent est un EHPA (Etablissement d'Hébergement pour Personnes Agées - établissement non médicalisé) de 35 places accueillant des personnes autonomes ou en perte d'autonomie en séjour temporaire (1 à 3 mois) ou permanent. 
+Retraité.e, en quête d'une maison chaleureuse et à taille humaine pour un court ou long séjour, la Maison Saint Vincent vous accueille dans son bâtiment refait à neuf, niché au creux de la Beauronne. 
 
-Situé à quelques kilomètres de Périgueux, accessible en voiture, en bus ou en train, la Maison Saint Vincent vous accueille dans son parc boisé de 2 hectares, au coeur du bourg de Château l'Evêque, à proximité des commerces et services de la commune (boulangerie-épicerie, halle commerçante, pôle médical, bibliothèque, mairie, bureau postal et centre scolaire).  
+Profitez du calme de la campagne, en flânant dans notre grand parc boisé ou en admirant le coucher de soleil sur les terrasses. Restez ouvert à la ville et au monde en vous baladant dans le bourg et ses commerces et services (boulangerie-épicerie, halle commerçante, pôle médical, bibliothèque, mairie, bureau postal et centre scolaire). 
 
+Notre chapelle est accessible à toute heure, un office y est célébré quotidiennement par l'aumônier de l'établissement (les laudes et les vêpres étant assurés par la Communauté des Filles de la Charité).
 
+Participez selon vos envies et vos capacités à la vie de la Maison à l'extérieur (potager, poulailler, jardin) ou à l'intérieur (couvert, couture, épluche). 
 
-<!--StartFragment-->
+Situé à quelques kilomètres de Périgueux, accessible en voiture, en bus ou en train, gardez le lien avec vos proches, grâce à l'Oasis, notre hébergement hôtelier accolé à l'établissement.  
 
-Bon Secours accueille des personnes autonomes, semi-autonomes et dépendantes, en séjour permanent ou en court séjour.
-
-Etablissement médicalisé, situé près du centre ville de Bègles, la maison de retraite offre un cadre verdoyant et facile d'accès. L'EHPAD est desservi par plusieurs lignes de bus et de tram. Un parking est réservé aux visiteurs.
-
-De nombreux commerces et services sont à proximité (bibliothèques, boulangerie,...).
-
-Une chapelle attenante à l'établissement est accessible aux résidents.
-
-C'est une maison de retraite chaleureuse et de taille humaine où il fait bon vivre et vieillir.
-
-<!--EndFragment-->
+La Maison Saint Vincent est un EHPA (Etablissement d'Hébergement pour Personnes Agées - établissement non médicalisé) de 35 places accueillant des personnes autonomes ou en perte d'autonomie.
