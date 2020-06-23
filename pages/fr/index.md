@@ -28,4 +28,6 @@ La Maison Saint Vincent est un EHPA (Etablissement d'Hébergement pour Personnes
 
 La Maison Saint Vincent a été fondée en 1869 par des Filles de la Charité afin d'y établir des œuvres dans l'inspiration de Saint vincent de Paul, qui fut ordonné prêtre dans la commune de Château l'Evêque le 23 septembre 1600. 
 
-Ces oeuvres ont évolué en fonction des besoins de la commune (école maternelle, soins à domicile, dispensaire, catéchèse puis maison de retraite). Historiquement réservée à l'accueil des Filles de la Charité de Saint Vincent de Paul, l'établissement accueille depuis fin 2019 des résidents laïcs.
+Ces oeuvres ont évolué en fonction des besoins de la commune (école maternelle, soins à domicile, dispensaire, catéchèse puis maison de retraite). Historiquement réservée à l'accueil des Filles de la Charité de Saint Vincent de Paul, l'établissement accueille depuis fin 2019 des résidents laïcs. 
+ 
+ *Trouver d'anciennes photos de la Maison ?*
