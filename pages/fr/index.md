@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Bienvenue
+title: Accueil
 i18n-key: home
 permalink: /
 ---
