@@ -20,4 +20,4 @@ Participez selon vos envies et vos capacités à la vie de la Maison à l'extér
 
 Situé à quelques kilomètres de Périgueux, accessible en voiture, en bus ou en train, gardez le lien avec vos proches, grâce à l'Oasis, notre hébergement hôtelier accolé à l'établissement.  
 
-La Maison Saint Vincent est un EHPA (Etablissement d'Hébergement pour Personnes Agées - établissement non médicalisé) de 35 places accueillant des personnes autonomes ou en perte d'autonomie.
+La Maison Saint Vincent est un EHPA (Etablissement d'Hébergement pour Personnes Agées non médicalisé) de 35 places accueillant des personnes autonomes ou en perte d'autonomie.
