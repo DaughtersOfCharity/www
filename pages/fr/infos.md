@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Informations pratiques
+title: Contact
 i18n-key: about
 permalink: /infos
 ---
-# Informations pratiques
+# Nous contacter
 
 L'accueil est ouvert du lundi au vendredi de 9h00 à 11h00 et de 14h00 à 17h00. 
 
