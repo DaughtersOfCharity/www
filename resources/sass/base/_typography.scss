@@ -1,0 +1,60 @@
+//==========  Typography ==========//
+
+// headings
+h1,
+h2,
+h3 {
+    @apply font-bold font-philo leading-tight mt-0 mb-6 text-purple-900;
+}
+
+.page-title {
+    @apply text-5xl;
+}
+
+// content
+.content {
+    // paragraph
+    p {
+        @apply mb-8;
+
+        // intro paragraph
+        // &:first-child {
+        // 	@apply border-b border-gray-200 text-2xl pb-10 mb-10 font-light leading-snug text-gray-600;
+
+        // 	@screen md {
+        //         @apply text-3xl;
+        //     }
+        // }
+    }
+}
+
+blockquote {
+    @apply block font-bold font-philo text-3xl relative pb-10 m-auto w-2/3;
+
+    &:before {
+        position: absolute;
+        top: 0;
+        line-height: 0;
+        font-size: 15rem;
+        content: "\00AB";
+        color: rgba(0, 0, 0, 0.1);
+    }
+
+    &:after {
+        @apply border border-b-2 border-green-900;
+        content: "";
+        bottom: 1.5rem;
+        left: 50%;
+        margin-left: -100px;
+        position: absolute;
+        height: 3px;
+        width: 200px;
+    }
+
+    cite {
+        @apply block text-xl;
+        &:before {
+            content: "– ";
+        }
+    }
+}

@@ -1,0 +1,15 @@
+<nav id="nav" class="nav hidden mt-3 md:block md:w-full font-bold text-base lg:text-xl">
+    <ul class="flex">
+        {% for item in navigation.main %}
+            {% if item.cta %}
+                <li class="flex-auto mr-2">
+                    <a href="{{ item.url | safe }}" class="text-center block border-2 border-green-700 rounded py-2 px-4 hover:bg-green-500 {% if page.url == item.url %}active text-black bg-white{% else %}text-white bg-green-700{% endif %}" {% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}</a>
+                </li>
+            {% else %}
+                <li class="flex-auto mr-2">
+                    <a href="{{ item.url | safe }}" class="border-b border-green-700 text-center block md:mx-1 lg:mx-3 py-2 hover:text-green-500 hover:border-green-300 {% if page.url == item.url %}active text-green-500{% endif %}" {% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}</a>
+                </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+</nav>

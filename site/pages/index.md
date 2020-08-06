@@ -1,0 +1,19 @@
+---
+layout: page
+meta_title: Page d’accueil
+permalink: /
+meta_description: 
+body_class: home
+title: Bienvenue !
+---
+
+Retraité.e, en quête d'une maison chaleureuse et à taille humaine pour un court ou long séjour, la Maison Saint Vincent vous accueille dans son bâtiment refait à neuf, niché au creux de la Beauronne.
+
+Profitez du calme de la campagne, en flânant dans notre grand parc boisé ou en admirant le coucher de soleil sur les terrasses. Restez ouvert à la ville et au monde en vous baladant dans le bourg et ses commerces et services (boulangerie-épicerie, halle commerçante, pôle médical, bibliothèque, mairie, bureau postal et centre scolaire).
+
+Notre chapelle est accessible à toute heure, un office y est célébré quotidiennement par l'aumônier de l'établissement (les laudes et les vêpres étant assurés par la Communauté des Filles de la Charité).
+Participez selon vos envies et vos capacités à la vie de la Maison à l'extérieur (potager, poulailler, jardin) ou à l'intérieur (couvert, couture, épluche).
+
+Situé à quelques kilomètres de Périgueux, accessible en voiture, en bus ou en train, gardez le lien avec vos proches, grâce à l'Oasis, notre hébergement hôtelier accolé à l'établissement.
+
+La Maison Saint Vincent est un EHPA (Etablissement d'Hébergement pour Personnes Agées non médicalisé) de 35 places accueillant des personnes autonomes ou en perte d'autonomie, géré par une association à loi 1901, à but non lucratif.

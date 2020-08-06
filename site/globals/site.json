@@ -1,0 +1,28 @@
+{
+    "name": "EHPAD Maison Saint Vincent",
+    "url": "https://maisonstvincent.netlify.app",
+    "author": {
+        "name": "Boris Schapira",
+        "email": "boris@schapira.dev",
+        "handle": "@borisschapira"
+    },
+    "images": {
+        "logo": "/images/logo/logo.svg",
+        "favicon": "/images/favicon.ico",
+        "twitter": "/images/meta/twitter.jpg",
+        "og": "/images/meta/og.jpg"
+    },
+    "social_links": {
+        "google": "https://goo.gl/maps/sRxZWVDcG1CFZY6Z8"
+    },
+    "address": {
+        "street": "Rue Soeur Jean Gabriel",
+        "street_2": "",
+        "city": "Château-l'Évêque",
+        "postcode": "24460",
+        "country": "FR"
+    },
+    "contact": {
+        "phone": "05 53 54 30 71"
+    }
+}
