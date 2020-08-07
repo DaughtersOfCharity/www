@@ -1,0 +1,123 @@
+/* ------------------ example styles ------------------ */
+.mod--hidden {
+    overflow: hidden;
+}
+
+.invisible {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.js-carrousel {
+    &-container {
+        @apply mt-6 mb-10 mx-auto;
+
+        width: 640px;
+        max-width: 80%;
+    }
+
+    @screen lg {
+
+        &-right {
+            @apply ml-10;
+            float: right;
+            margin-right: clamp(-1rem, -20%, -3rem);
+        }
+
+        &-left {
+            @apply mr-10;
+            float: left;
+            margin-left: clamp(-1rem, -20%, -3rem);
+        }
+    }
+}
+.carrousel__control__list {
+    position: absolute;
+    list-style-type: none;
+    bottom: 2rem;
+    right: 0;
+    left: 0;
+    margin-top: -0.5em;
+    padding-left: 0;
+    text-align: center;
+}
+.carrousel__control__list__item {
+    display: inline-block;
+    margin: 0 0.5em;
+}
+.carrousel__control__list__link {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background: #fff;
+    border: 1px solid #148297;
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+.carrousel__button-container {
+    position: absolute;
+}
+.carrousel__button__previous {
+    top: 50%;
+    left: 0;
+    margin-left: 20px;
+}
+.carrousel__button__next {
+    top: 50%;
+    right: 0;
+    margin-right: 20px;
+}
+.carrousel__button__button {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+
+.carrousel__content img {
+    @apply rounded;
+}
+
+/* only for minimalist example */
+.carrousel__content[aria-hidden="true"] {
+    display: none;
+}
+/* ------------------ State rules ------------------ */
+.carrousel__control__list__link:focus,
+.carrousel__control__list__link:hover,
+.carrousel__control__list__link:active,
+.carrousel__control__list__link[aria-selected="true"] {
+    background: #2b6cb0;
+}
+.carrousel__control__list__link:focus,
+.carrousel__control__list__link:hover,
+.carrousel__control__list__link:active {
+    outline: 2px dotted #2b6cb0;
+}
+
+@keyframes fadeout {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
