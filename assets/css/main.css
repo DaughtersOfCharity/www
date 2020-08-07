@@ -131,7 +131,8 @@ blockquote {
   align-items: flex-end;
   font-family: "Philosopher", serif;
   font-weight: 700;
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  border: none; }
   .company-logo-link:hover {
     color: #4299e1; }
   @media (min-width: 500px) {
