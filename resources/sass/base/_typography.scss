@@ -41,7 +41,7 @@ blockquote {
     }
 
     &:after {
-        @apply border border-b-2 border-green-900;
+        @apply border border-b-2 border-blue-700;
         content: "";
         bottom: 1.5rem;
         left: 50%;

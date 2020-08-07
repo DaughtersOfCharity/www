@@ -1,16 +1,11 @@
 <!doctype html>
-<html lang="en" class="min-h-full antialiased">
+<html lang="fr">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% if meta_title %}{{ meta_title }}{% else %}{{ title }}{% endif %} | {{ site.name }}</title>
     <meta name="description" content="{% if meta_description %}{{ meta_description }}{% else %}{{ excerpt }}{% endif %}">
-    {% if page.fileSlug === 'blog' %}
-        <meta name="robots" content="noindex,follow" />
-    {% else %}
-        <meta name="robots" content="index,follow" />
-    {% endif %}
-
+    <meta name="robots" content="noindex,nofollow" />
     {# if your site's entire CSS comes in under 14kb, you may want to inline in the head #}
     {# include main.css if in development mode #}
     {% if helpers.environment === "development" %}
@@ -40,11 +35,11 @@
     <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 </head>
 
-<body {% if body_class %} id="{{ body_class }}"{% endif %} class="text-purple-900 leading-normal text-lg">
+<body {% if body_class %} id="{{ body_class }}"{% endif %}>
 
     <a class="sr-only" href="#main">Skip to content</a>
 
-    <div id="wrapper" class="wrapper pb-16 md:pb-0 flex flex-col relative min-h-screen">
+    <div id="wrapper" class="wrapper">
 
         {# include header #}
         {% include "components/header.njk" %}

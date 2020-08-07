@@ -1,8 +1,7 @@
-<nav id="mobile-nav" class="mobile-nav fixed left-0 top-0 h-screen w-full overflow-y-auto pt-12 bg-green-900 z-50 md:hidden">
+<nav id="mobile-nav" class="mobile-nav">
     <ul>
         {% for item in navigation.main %}
-            <li class="item relative opacity-0">
-
+            <li class="item">
                 <a href="{{ item.url | safe }}" class="link block py-2 px-5 text-white text-3xl hover:text-green-500 {% if page.url == item.url %}active text-green-500{% endif %}
             "{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}</a>
             </li>

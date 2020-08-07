@@ -27,7 +27,7 @@ $transition-length: 0.5s;
         }
 
         .mobile-nav-icon-line {
-            @apply m-0 bg-green-900;
+            @apply m-0 bg-blue-900;
 
             &:nth-child(1) {
                 transform: rotate(45deg) translateY(3px);
@@ -51,6 +51,12 @@ $transition-length: 0.5s;
     transition-delay: 0.1s;
     will-change: transform;
 
+    @apply fixed left-0 top-0 h-screen w-full overflow-y-auto pt-12 bg-blue-900 z-50;
+
+    @screen md {
+        @apply hidden;
+    }
+
     // when menu is visible
     &.menu-visible {
         transform: translate3d(0, 0, 0);
@@ -62,6 +68,7 @@ $transition-length: 0.5s;
     }
 
     .item {
+        @apply relative opacity-0;
         transition: opacity .5s ease, transform $transition-length $transition-easing;
         transform: translate3d(-50%, 0, 0);
         transition-delay: $transition-length;

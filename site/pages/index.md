@@ -1,9 +1,8 @@
 ---
-layout: page
 meta_title: Page d’accueil
 permalink: /
 meta_description: 
-body_class: home
+body_class: accueil
 title: Bienvenue !
 ---
 

@@ -1,0 +1,31 @@
+html {
+    @apply min-h-full antialiased;
+}
+
+body {
+    @apply text-blue-900 leading-normal text-lg;
+}
+
+.wrapper {
+    @apply pb-16 flex flex-col relative min-h-screen;
+
+    @screen md {
+        @apply pb-0;
+    }
+}
+
+.main {
+    @apply inner flex flex-1 flex-col py-10;
+
+    @screen lg {
+        @apply py-20;
+    }
+
+    @variants focus {
+        @apply outline-none;
+    }
+}
+
+.column.centre {
+    @apply flex-1;
+}
