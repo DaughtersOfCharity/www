@@ -1,0 +1,64 @@
+//==========  Typography ==========//
+
+// headings
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  font-family: $title-font;
+  line-height: 1.25;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  color: $purple-900;
+}
+
+.page-title {
+  font-size: 3rem;
+}
+
+// content
+.content {
+  p {
+    margin: 2rem;
+  }
+}
+
+blockquote {
+  display: block;
+  font-weight: 700;
+  font-family: $title-font;
+  font-size: 2rem;
+  position: relative;
+  padding-bottom: 2.5rem;
+  margin: auto;
+  width: 100% * 2 / 3;
+
+  &:before {
+    position: absolute;
+    top: 0;
+    line-height: 0;
+    font-size: 15rem;
+    content: "\00AB";
+    color: rgba(0, 0, 0, 0.1);
+  }
+
+  &:after {
+    border: 2px solid $blue-700;
+    content: "";
+    bottom: 1.5rem;
+    left: 50%;
+    margin-left: -100px;
+    position: absolute;
+    height: 3px;
+    width: 200px;
+  }
+
+  cite {
+    display: block;
+    font-size: 1.25rem;
+
+    &:before {
+      content: "– ";
+    }
+  }
+}

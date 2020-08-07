@@ -1,0 +1,30 @@
+$title-font: "Philosopher", serif;
+$body-font: "Roboto", sans-serif;
+
+$blue-100: #ebf8ff;
+$blue-200: #bee3f8;
+$blue-300: #90cdf4;
+$blue-400: #63b3ed;
+$blue-500: #4299e1;
+$blue-600: #3182ce;
+$blue-700: #2b6cb0;
+$blue-800: #2c5282;
+$blue-900: #2a4365;
+
+$purple-100: #faf5ff;
+$purple-200: #e9d8fd;
+$purple-300: #d6bcfa;
+$purple-400: #b794f4;
+$purple-500: #9f7aea;
+$purple-600: #805ad5;
+$purple-700: #6b46c1;
+$purple-800: #553c9a;
+$purple-900: #21183c;
+
+$breakpoints: (
+  xs: 500px,
+  sm: 640px,
+  md: 768px,
+  lg: 1024px,
+  xl: 1280px
+);

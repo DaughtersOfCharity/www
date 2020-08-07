@@ -1,0 +1,21 @@
+//==========  Utility classes ==========//
+
+// subtle 'fade in' to the lazyloaded image
+[data-lazy] {
+  transition: opacity 0.25s ease-in;
+  min-height: 120px;
+  width: 100%;
+  opacity: 0;
+}
+
+.loaded {
+  @apply opacity-100;
+}
+
+// 'container' helper class
+.inner {
+  width: 100%;
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+}

@@ -1,0 +1,140 @@
+//========== Mobile Navigation ==========//
+
+$transition-easing: cubic-bezier(0.77, 0, 0.175, 1);
+$transition-length: 0.5s;
+
+// menu toggle button
+.mobile-nav-toggle {
+  @include media(">=md") {
+    display: none;
+  }
+
+  position: absolute;
+  top: 0.25rem;
+  right: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  border: 2px solid $blue-700;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  background-color: $blue-700;
+  z-index: 50;
+  color: white;
+
+  &:hover {
+    background-color: $blue-500;
+  }
+
+  .mobile-nav-icon-line {
+    height: 2px;
+    background-color: white;
+    width: 1.5rem;
+    display: block;
+    transition: all 200ms ease-out;
+    margin-bottom: 0.25rem;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+
+  .mobile-nav-label {
+    margin-right: 0.5rem;
+    font-weight: 500;
+    &-close {
+      display: none;
+    }
+  }
+
+  // when menu toggle is clicked
+  &.menu-toggle-active {
+    .mobile-nav-label {
+      &-open {
+        display: none;
+      }
+
+      &-close {
+        display: inline-block;
+      }
+    }
+
+    .mobile-nav-icon-line {
+      margin: 0;
+      background-color: $blue-900;
+
+      &:nth-child(1) {
+        transform: rotate(45deg) translateY(3px);
+      }
+
+      &:nth-child(2) {
+        opacity: 0;
+      }
+
+      &:nth-child(3) {
+        transform: rotate(-45deg) translateY(-3px);
+      }
+    }
+  }
+}
+
+// mobile menu
+.mobile-nav {
+  transform: translate3d(-100%, 0, 0);
+  transition: transform $transition-length $transition-easing;
+  transition-delay: 0.1s;
+  will-change: transform;
+
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  overflow-y: auto;
+  padding-top: 3rem;
+  background-color: $blue-900;
+  z-index: 50;
+
+  @include media(">=md") {
+    display: none;
+  }
+
+  // when menu is visible
+  &.menu-visible {
+    transform: translate3d(0, 0, 0);
+
+    .item {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  .item {
+    position: relative;
+    opacity: 0;
+
+    transition: opacity 0.5s ease,
+      transform $transition-length $transition-easing;
+    transform: translate3d(-50%, 0, 0);
+    transition-delay: $transition-length;
+
+    // incrementally delay our animations
+    @for $i from 0 through 100 {
+      &:nth-child(#{$i}) {
+        transition-delay: $transition-length * $i / 8 + 0.5;
+      }
+    }
+
+    .link {
+      display: block;
+      padding: 0.5rem 1.25rem;
+      color: white;
+      font-size: 2rem;
+      &:hover,
+      &.active {
+        color: $blue-500;
+      }
+    }
+  }
+}

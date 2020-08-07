@@ -1,0 +1,31 @@
+.wrapper {
+  padding-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 100vh;
+
+  @include media(">=md") {
+    padding-bottom: 0;
+  }
+}
+
+.main {
+  display: flex;
+  flex: 1 1 0%;
+
+  flex-direction: column;
+  padding: 2.5rem 0;
+
+  @include media(">=lg") {
+    padding: 5rem 0;
+  }
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+.column.centre {
+  flex: 1 1 0%;
+}

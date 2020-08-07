@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<main id="main" class="main inner" tabindex="-1">
+
+    <article id="container-centre" class="column centre">
+
+        {% if displayTitle %}
+            <header>
+                <h1 class="page-title">{{ title }}</h1>
+            </header>
+        {% endif %}
+
+        <div class="content">
+            {{ content | safe }}
+        </div>
+
+    </article>
+
+</main>

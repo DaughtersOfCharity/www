@@ -1,0 +1,17 @@
+//==========  Links ==========//
+
+a {
+  color: $blue-700;
+  text-decoration: none;
+  transition-property: all 300ms ease-out;
+
+  &:not([class]) {
+    color: $blue-800;
+
+    border-bottom-width: 2px;
+
+    &:hover {
+      color: $purple-500;
+    }
+  }
+}

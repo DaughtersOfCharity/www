@@ -1,0 +1,29 @@
+{
+    "main": [
+        {
+            "label": "Accueil",
+            "url": "/"
+        },
+        {
+            "label": "Histoire",
+            "url": "/histoire/"
+        },
+        {
+            "label": "Ma Vie À l'EHPA",
+            "url": "/ma-vie-a-ehpa/"
+        },
+        {
+            "label": "Qui sommes-nous ?",
+            "url": "/qui-sommes-nous/"
+        },
+        {
+            "label": "Tarifs et Admission",
+            "url": "/tarifs-admission/"
+        },
+        {
+            "label": "Contact",
+            "cta": true,
+            "url": "/contact/"
+        }
+    ]
+}

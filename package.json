@@ -3,11 +3,12 @@
   "version": "5.0.2",
   "description": "A starter repository for a blog web site using the Eleventy static site generator.",
   "scripts": {
-    "build": "eleventy",
-    "watch": "eleventy --watch",
-    "serve": "eleventy --serve",
-    "start": "eleventy --serve",
-    "debug": "DEBUG=* eleventy"
+    "scss": "node-sass assets/scss -o assets/css",
+    "css": "postcss assets/css/*.css -u autoprefixer cssnano -r -m",
+    "watch:eleventy": "eleventy --serve",
+    "watch:sass": "node-sass --watch assets/scss -o assets/css",
+    "develop": "npm run scss ; ELEVENTY_ENV=dev npm run watch:eleventy & npm run watch:sass",
+    "build": "npm run scss ; ELEVENTY_ENV=prod eleventy ; npm run css ; npm run screenshot"
   },
   "repository": {
     "type": "git",
@@ -27,9 +28,21 @@
     "@11ty/eleventy": "^0.11.0",
     "@11ty/eleventy-navigation": "^0.1.6",
     "@11ty/eleventy-plugin-rss": "^1.0.9",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
+    "autoprefixer": "^9.8.5",
+    "cssnano": "^4.1.10",
+    "dotenv": "^8.2.0",
+    "emoji-regex": "^9.0.0",
+    "include-media": "^1.4.9",
     "luxon": "^1.21.3",
-    "markdown-it": "^8.4.2",
-    "markdown-it-anchor": "^5.2.5"
-  }
+    "node-sass": "^4.11.0",
+    "postcss-cli": "^7.1.0",
+    "postcss-normalize": "^9.0.0"
+  },
+  "dependencies": {
+    "eleventy-plugin-sass": "^1.0.0",
+    "html-minifier": "^4.0.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
 }
