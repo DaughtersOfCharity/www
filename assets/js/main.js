@@ -1,4 +1,4 @@
-(function MobileNav() {
+(function mobileNav() {
   document
     .getElementById("mobile-nav-toggle")
     .addEventListener("click", function () {
@@ -14,6 +14,9 @@
     });
 })();
 
-[...document.getElementsByClassName("js-carrousel")].forEach((x) =>
-  van11yAccessibleCarrouselAria(x)
-);
+(function activateCarrousel() {
+  const carrousels = document.getElementsByClassName("js-carrousel");
+  for (let i = 0; i < carrousels.length; i++) {
+    van11yAccessibleCarrouselAria(carrousels.items(i));
+  }
+})();

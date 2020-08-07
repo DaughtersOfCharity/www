@@ -8,7 +8,7 @@
     "watch:eleventy": "eleventy --serve",
     "watch:sass": "node-sass --watch assets/scss -o assets/css",
     "develop": "npm run scss ; ELEVENTY_ENV=dev npm run watch:eleventy & npm run watch:sass",
-    "build": "npm run scss ; ELEVENTY_ENV=prod eleventy ; npm run css ; npm run screenshot"
+    "build": "npm run scss ; ELEVENTY_ENV=prod eleventy ; npm run css"
   },
   "repository": {
     "type": "git",

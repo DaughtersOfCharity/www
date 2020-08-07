@@ -530,12 +530,10 @@ blockquote {
 @media (min-width: 1024px) {
   .js-carrousel-right {
     margin-left: 2.5rem;
-    float: right;
-    margin-right: -20%; }
+    float: right; }
   .js-carrousel-left {
     margin-right: 2.5rem;
-    float: left;
-    margin-left: -20%; } }
+    float: left; } }
 
 .carrousel__control__list {
   position: absolute;
