@@ -69,8 +69,4 @@ if (mix.inProduction()) {
             "menu-visible"
         ]
     })
-
-        // Minifies CSS & JS files
-        .minify(paths.sass.dest + "main.css")
-        .minify(paths.javascript.dest + "main.js");
 }
