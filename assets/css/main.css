@@ -62,13 +62,12 @@ img {
 
 a {
   color: #2b6cb0;
+  transition: all .3s ease-out;
   text-decoration: none;
-  transition-property: all 300ms ease-out; }
-  a:not([class]) {
-    color: #2c5282;
-    border-bottom-width: 2px; }
-    a:not([class]):hover {
-      color: #9f7aea; }
+  border-block-end: 1px solid #2b6cb0; }
+  a:hover {
+    color: #4299e1;
+    border-block-end-color: #4299e1; }
 
 h1,
 h2,
@@ -76,8 +75,8 @@ h3 {
   font-weight: 700;
   font-family: "Philosopher", serif;
   line-height: 1.25;
-  margin-top: 0;
-  margin-bottom: 1.5rem;
+  margin-block-start: 0;
+  margin-block-end: 1.5rem;
   color: #21183c; }
 
 .page-title {
@@ -92,7 +91,7 @@ blockquote {
   font-family: "Philosopher", serif;
   font-size: 2rem;
   position: relative;
-  padding-bottom: 2.5rem;
+  padding-block-end: 2.5rem;
   margin: auto;
   width: 66.66667%; }
   blockquote:before {
@@ -152,7 +151,7 @@ blockquote {
 
 .nav {
   display: none;
-  margin-top: 0.75rem;
+  margin-block-start: 0.75rem;
   font-weight: 700;
   font-size: 1rem; }
   @media (min-width: 768px) {
@@ -168,7 +167,7 @@ blockquote {
       flex: 1 1 auto;
       margin-right: 0.5rem; }
       .nav-list-item a {
-        border-bottom: 1px solid #2b6cb0;
+        border-block-end: 1px solid #2b6cb0;
         display: block;
         padding: 0.5rem 0;
         text-align: center;
@@ -185,18 +184,6 @@ blockquote {
         .nav-list-item a.active {
           color: #4299e1;
           border-color: #4299e1; }
-        .nav-list-item a.cta {
-          display: block;
-          border: 2px solid #2b6cb0;
-          border-radius: 0.25rem;
-          padding: 0.5rem 1rem;
-          color: white;
-          background-color: #2b6cb0; }
-          .nav-list-item a.cta:hover {
-            background-color: #4299e1; }
-          .nav-list-item a.cta.active {
-            color: #2a4365;
-            background-color: white; }
 
 .mobile-nav-toggle {
   position: absolute;
@@ -223,9 +210,9 @@ blockquote {
     width: 1.5rem;
     display: block;
     transition: all 200ms ease-out;
-    margin-bottom: 0.25rem; }
+    margin-block-end: 0.25rem; }
     .mobile-nav-toggle .mobile-nav-icon-line:last-of-type {
-      margin-bottom: 0; }
+      margin-block-end: 0; }
   .mobile-nav-toggle .mobile-nav-label {
     margin-right: 0.5rem;
     font-weight: 500; }
@@ -256,7 +243,7 @@ blockquote {
   height: 100vh;
   width: 100%;
   overflow-y: auto;
-  padding-top: 3rem;
+  padding-block-start: 3rem;
   background-color: #2a4365;
   z-index: 50; }
   @media (min-width: 768px) {
@@ -484,14 +471,14 @@ blockquote {
         color: #4299e1; }
 
 .wrapper {
-  padding-bottom: 4rem;
+  padding-block-end: 4rem;
   display: flex;
   flex-direction: column;
   position: relative;
   min-height: 100vh; }
   @media (min-width: 768px) {
     .wrapper {
-      padding-bottom: 0; } }
+      padding-block-end: 0; } }
 
 .main {
   display: flex;
@@ -506,6 +493,19 @@ blockquote {
 
 .column.centre {
   flex: 1 1 0%; }
+
+.btn {
+  display: block;
+  border: 2px solid #2b6cb0;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  background-color: #2b6cb0; }
+  .btn:hover {
+    background-color: #4299e1; }
+  .btn.active {
+    color: #2a4365;
+    background-color: white; }
 
 /* ------------------ example styles ------------------ */
 .mod--hidden {
@@ -522,7 +522,7 @@ blockquote {
   width: 1px; }
 
 .js-carrousel-container {
-  margin: 1.5rem auto 2.5rem auto;
+  margin: 0.5rem auto;
   width: 640px;
   max-width: 80%;
   position: relative; }
@@ -541,7 +541,7 @@ blockquote {
   bottom: 2rem;
   right: 0;
   left: 0;
-  margin-top: -0.5em;
+  margin-block-start: -0.5em;
   padding-left: 0;
   text-align: center; }
 
@@ -580,7 +580,7 @@ blockquote {
   width: 20px;
   height: 20px; }
 
-.carrousel__content img {
+img.carrousel__content {
   border-radius: 0.25rem; }
 
 /* only for minimalist example */
@@ -599,6 +599,19 @@ blockquote {
 .carrousel__control__list__link:active {
   outline: 2px dotted #2b6cb0; }
 
+/* ------------------ transition fade ------------------ */
+.fade .carrousel__content {
+  -webkit-animation: fadein 1s;
+  animation: fadein 1s;
+  white-space: normal; }
+
+.fade .carrousel__content[aria-hidden="true"] {
+  -webkit-animation: fadeout 1s;
+  animation: fadeout 1s; }
+
+.fade .carrousel__content[aria-hidden="true"] {
+  display: none; }
+
 @keyframes fadeout {
   0% {
     opacity: 1; }
@@ -610,3 +623,17 @@ blockquote {
     opacity: 0; }
   100% {
     opacity: 1; } }
+
+.footer {
+  background-color: #bee3f8; }
+  .footer-inner {
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5rem 1.5rem; }
+    @media (min-width: 768px) {
+      .footer-inner {
+        display: flex; } }
+  .footer .socials {
+    display: flex;
+    justify-content: center; }

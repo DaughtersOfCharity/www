@@ -1,0 +1,19 @@
+.footer {
+  background-color: $blue-200;
+
+  &-inner {
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5rem 1.5rem;
+
+    @include media(">=md") {
+      display: flex;
+    }
+  }
+
+  .socials {
+    display: flex;
+    justify-content: center;
+  }
+}

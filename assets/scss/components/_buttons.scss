@@ -1,2 +1,19 @@
-
 //==========  Buttons ==========//
+
+.btn {
+  display: block;
+  border: 2px solid $blue-700;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  background-color: $blue-700;
+
+  &:hover {
+    background-color: $blue-500;
+  }
+
+  &.active {
+    color: $blue-900;
+    background-color: white;
+  }
+}

@@ -1,12 +1,12 @@
 .wrapper {
-  padding-bottom: 4rem;
+  padding-block-end: 4rem;
   display: flex;
   flex-direction: column;
   position: relative;
   min-height: 100vh;
 
   @include media(">=md") {
-    padding-bottom: 0;
+    padding-block-end: 0;
   }
 }
 

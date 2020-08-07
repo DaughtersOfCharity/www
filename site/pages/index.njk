@@ -4,10 +4,25 @@ permalink: /
 meta_description:
 body_class: accueil
 title: Bienvenue !
+carrousel1:
+  - url: https://placeimg.com/640/480/nature
+    width: 640
+    height: 480
+  - url: https://placeimg.com/640/480/architecture
+    width: 640
+    height: 480
+  - url: https://placeimg.com/640/480/people
+    width: 640
+    height: 480
+  - url: https://placeimg.com/640/480/animals
+    width: 640
+    height: 480
 ---
 
+{% import "macros/utils.njk" as utils %}
+
 <div class="js-carrousel-container js-carrousel-left">
-    {% include "carousels/facade.njk" %}
+  {{ utils.carrousel(carrousel1) }}
 </div>
 
 <p>

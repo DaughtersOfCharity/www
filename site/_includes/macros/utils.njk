@@ -1,0 +1,15 @@
+{% macro carrousel(images, lazy) %}
+  <div class="js-carrousel relative">
+    <div class="js-carrousel__container mod--hidden"
+   data-carrousel-btn-previous-img="/assets/img/icons/left.svg"
+   data-carrousel-btn-next-img="/assets/img/icons/right.svg"
+   data-carrousel-btn-previous-text="Montrer l'image précédente"
+   data-carrousel-btn-next-text="Montrer l'image suivante"
+   data-carrousel-span-text-class="invisible"
+   data-carrousel-transition="fade">
+      {% for img in images %}
+        <img class="js-carrousel__content" {% if loop.index0 > 0 %} loading="lazy" {% endif %}src="{{ img.url }}" width="{{ img.width }}" height="{{ img.height }}"/>
+      {% endfor %}
+    </div>
+  </div>
+{% endmacro %}

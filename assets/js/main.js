@@ -15,8 +15,10 @@
 })();
 
 (function activateCarrousel() {
-  const carrousels = document.getElementsByClassName("js-carrousel");
-  for (let i = 0; i < carrousels.length; i++) {
-    van11yAccessibleCarrouselAria(carrousels.items(i));
-  }
+  window.addEventListener("load", function loadImages() {
+    const images = document.querySelectorAll(".js-carrousel img[loading=lazy]");
+    for (let i = 0; i < images.length; i++) {
+      images[i].setAttribute("loading", "eager");
+    }
+  });
 })();

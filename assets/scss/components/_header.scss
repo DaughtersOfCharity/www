@@ -44,7 +44,7 @@
 
 .nav {
   display: none;
-  margin-top: 0.75rem;
+  margin-block-start: 0.75rem;
   font-weight: 700;
   font-size: 1rem;
 
@@ -65,46 +65,28 @@
       margin-right: 0.5rem;
 
       a {
-        border-bottom: 1px solid $blue-700;
+        border-block-end: 1px solid $blue-700;
         display: block;
         padding: 0.5rem 0;
         text-align: center;
         font-weight: bold;
 
-        @include media('>=md') {
-            margin: 0 0.25rem;
+        @include media(">=md") {
+          margin: 0 0.25rem;
         }
 
-        @include media('>=lg') {
-            margin: 0 0.75rem;
+        @include media(">=lg") {
+          margin: 0 0.75rem;
         }
 
         &:hover {
-            color: $blue-500;
-            border-color: $blue-300;
+          color: $blue-500;
+          border-color: $blue-300;
         }
 
         &.active {
-            color: $blue-500;
-            border-color: $blue-500;
-        }
-
-        &.cta {
-          display: block;
-          border: 2px solid $blue-700;
-          border-radius: 0.25rem;
-          padding: 0.5rem 1rem;
-          color: white;
-          background-color: $blue-700;
-
-          &:hover {
-            background-color: $blue-500;
-          }
-
-          &.active {
-            color: $blue-900;
-            background-color: white;
-          }
+          color: $blue-500;
+          border-color: $blue-500;
         }
       }
     }

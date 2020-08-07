@@ -2,16 +2,12 @@
 
 a {
   color: $blue-700;
+  transition: all .3s ease-out;
   text-decoration: none;
-  transition-property: all 300ms ease-out;
+  border-block-end: 1px solid $blue-700;
 
-  &:not([class]) {
-    color: $blue-800;
-
-    border-bottom-width: 2px;
-
-    &:hover {
-      color: $purple-500;
-    }
+  &:hover {
+    color: $blue-500;
+    border-block-end-color: $blue-500;
   }
 }
