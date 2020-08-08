@@ -20,10 +20,21 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit; }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: normal;
@@ -32,12 +43,14 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   line-height: 1.5;
   font-size: 1.125rem; }
 
-ol, ul {
+ol,
+ul {
   list-style: none; }
 
 img {
   max-width: 100%;
-  height: auto; }
+  height: auto;
+  border-radius: 0.25rem; }
 
 .sr-only {
   position: absolute;
@@ -580,9 +593,6 @@ blockquote {
   cursor: pointer;
   width: 20px;
   height: 20px; }
-
-img.carrousel__content {
-  border-radius: 0.25rem; }
 
 /* only for minimalist example */
 .carrousel__content[aria-hidden="true"] {
