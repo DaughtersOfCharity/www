@@ -1,15 +1,19 @@
-<nav id="nav" class="nav">
+<div class="name-nav">
+  <a class="company-name" href="/" title="Accueil Maison Saint Vincent"><span>EHPA Maison</span> <span>Saint Vincent</span></a>
+  {% include "components/mobile-nav.njk" %}
+  <nav id="nav" class="nav">
     <ul class="nav-list">
-        {% for item in navigation.main %}
-            {% if item.cta %}
-                <li class="nav-list-item">
-                    <a href="{{ item.url | safe }}" class="btn {% if page.url == item.url %}active{% endif %}" {% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}</a>
-                </li>
-            {% else %}
-                <li class="nav-list-item">
-                    <a href="{{ item.url | safe }}" class="{% if page.url == item.url %}active{% endif %}" {% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}</a>
-                </li>
-            {% endif %}
-        {% endfor %}
+      {% for item in navigation.main %}
+        {% if item.cta %}
+          <li class="nav-list-item">
+            <a href="{{ item.url | safe }}" class="btn {% if page.url == item.url %}active{% endif %}" {% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}</a>
+          </li>
+        {% else %}
+          <li class="nav-list-item">
+            <a href="{{ item.url | safe }}" class="{% if page.url == item.url %}active{% endif %}" {% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
     </ul>
-</nav>
+  </nav>
+</div>

@@ -13,6 +13,7 @@ layout: default
         {% endif %}
 
         <div class="content">
+            {% import "macros/utils.njk" as utils %}
             {{ content | safe }}
         </div>
 

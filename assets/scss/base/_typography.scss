@@ -12,14 +12,29 @@ h3 {
   color: $purple-900;
 }
 
+h1 {
+  font-size: 1.75em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
+
 .page-title {
   font-size: 3rem;
 }
 
 // content
 .content {
-  p {
-    margin: 2rem;
+  margin: 0 2rem;
+  p,
+  .section {
+    margin: 2rem 0;
   }
 }
 

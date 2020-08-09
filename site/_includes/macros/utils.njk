@@ -13,3 +13,10 @@
     </div>
   </div>
 {% endmacro %}
+
+{% macro blockquote(what, who, where, when) %}
+<blockquote>
+    {{ what }}
+    <cite>{{ who }} &laquo;&nbsp;{{ where }}&nbsp;&raquo; ({{ when }})</cite>
+</blockquote>
+{% endmacro %}

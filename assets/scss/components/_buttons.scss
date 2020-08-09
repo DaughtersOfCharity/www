@@ -1,15 +1,21 @@
 //==========  Buttons ==========//
 
 .btn {
-  display: block;
+  display: inline-block;
   border: 2px solid $blue-700;
   border-radius: 0.25rem;
   padding: 0.5rem 1rem;
+  font-size: 1em;
   color: white;
   background-color: $blue-700;
 
   &:hover {
     background-color: $blue-500;
+  }
+
+  &:focus {
+    border-color: white;
+    outline: none;
   }
 
   &.active {

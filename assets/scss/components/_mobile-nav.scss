@@ -4,11 +4,7 @@ $transition-easing: cubic-bezier(0.77, 0, 0.175, 1);
 $transition-length: 0.5s;
 
 // menu toggle button
-.mobile-nav-toggle {
-  @include media(">=md") {
-    display: none;
-  }
-
+.btn.mobile-nav-toggle {
   position: absolute;
   top: 0.25rem;
   right: 0.25rem;
@@ -16,15 +12,10 @@ $transition-length: 0.5s;
   align-items: center;
   justify-content: center;
   font-weight: bold;
-  border: 2px solid $blue-700;
-  border-radius: 0.25rem;
-  padding: 0.5rem 1rem;
-  background-color: $blue-700;
   z-index: 50;
-  color: white;
 
-  &:hover {
-    background-color: $blue-500;
+  @include media(">=md") {
+    display: none;
   }
 
   .mobile-nav-icon-line {

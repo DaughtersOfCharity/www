@@ -29,3 +29,9 @@
 .column.centre {
   flex: 1 1 0%;
 }
+
+.section::after {
+  content:" ";
+	display: block;
+	clear: both;
+}

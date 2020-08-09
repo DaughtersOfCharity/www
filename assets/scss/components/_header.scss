@@ -2,7 +2,7 @@
   position: relative;
   padding: 1rem;
   align-items: center;
-  display: block;
+  display: flex;
   background-color: $blue-100;
 
   @include media(">=md") {
@@ -10,37 +10,30 @@
   }
 }
 
-.company-logo-link {
-  display: flex;
-  align-items: flex-end;
+.company-name {
   font-family: $title-font;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: clamp(2rem, 7vw, 3rem);
   border: none;
+  margin-left: 0.75rem;
 
-  &:hover {
-    color: $blue-500;
-  }
-
-  @include media(">=xs") {
-    font-size: 1.875rem;
-  }
-  @include media(">=sm") {
-    align-items: center;
-    font-size: 2.25rem;
-  }
-
-  @include media(">=md") {
-    font-size: 3rem;
-  }
-
-  &-image {
+  span {
     display: inline-block;
   }
+}
 
-  &-label {
-    margin-left: 0.75rem;
-  }
+.company-logo-link {
+  display: inline-block;
+  border: none;
+  margin-right: 0.5rem;
+}
+
+.name-nav {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+
+  width: 100%;
 }
 
 .nav {
@@ -65,7 +58,7 @@
       flex: 1 1 auto;
       margin-right: 0.5rem;
 
-      a {
+      a:not(.btn) {
         border-block-end: 1px solid $blue-700;
         display: block;
         padding: 0.5rem 0;
