@@ -1,8 +1,14 @@
 fr:
   - url: ""
     name: "Accueil"
-  - url: "infos"
-    name: "Infos pratiques"
+  - url: "vie"
+    name: "La Vie à la Maison"
+  - url: "admission"
+    name: "Admission"
+  - url: "presentation"
+    name: "Notre Histoire"
+  - url: "contact"
+    name: "Contact"
 en:
   - url: ""
     name: "Home"

@@ -6,6 +6,10 @@
   text-rendering: optimizeLegibility;
 }
 
+html {
+  font-size: 1.3rem;
+}
+
 /* Le style du header et du menu de navigation */
 
 header {
@@ -97,15 +101,14 @@ header a,
 
 .content {
   width: calc(100% - 10vw);
-  max-width: 40rem;
+  max-width: 35rem;
   margin: 0px auto;
   clear: both;
   margin-top: 5vh;
-  margin-bottom: 200px;
 }
 
 body {
-  font-family: "Mullish";
+  font-family: "Mulish";
   font-size: 0.9rem;
   margin: 0px;
   color: black;
