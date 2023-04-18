@@ -8,4 +8,4 @@ permalink: /infos
 
 ## Nous contacter
 
-{% include form-message.html.liquid %}
+
