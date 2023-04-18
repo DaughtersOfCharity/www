@@ -1,6 +1,10 @@
 <div class="header">
     <header id="top">
-        <a href="{{ page.base-url }}">Maison Saint Vincent</a>
+        <a href="{{ page.base-url }}"><picture>
+            <source srcset="images/logo90.webp" type="image/webp">
+            <img src="images/logo90.jpg" alt="Logo de la Maison Saint Vincent">
+        </picture>
+        Maison Saint&nbsp;Vincent</a>
     </header>
     <div class="menu">
         {% if page.translation %}{% assign tran_lang = page.translation.locale | slice: 0,2 %}{% capture read_in %}{% t Lire en %} {%

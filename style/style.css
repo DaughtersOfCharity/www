@@ -13,20 +13,27 @@ html {
 /* Le style du header et du menu de navigation */
 
 header {
-  font-family: "Philosopher";
+  font-family: 'Philosopher', sans-serif;
   font-size: 3.5rem;
   text-align: center;
   width: 100%;
   margin-bottom: 20px;
+  color: #002060;
 }
 
 header span {
   letter-spacing: 5px;
 }
 
+header picture img {
+  display: inline-block;
+  width: 4rem;
+  border-radius: 5px;
+}
+
 header a,
 .langue a {
-  color: black;
+  color: #002060;
   text-decoration: none;
 }
 
@@ -40,6 +47,9 @@ header a,
   display: block;
   text-align: center;
   width: 100%;
+  color: white;
+  background-color: #002060;
+  padding: 0.5rem;
 }
 
 .langue {
@@ -76,11 +86,10 @@ header a,
 } */
 
 .menu a {
-  font-family: "Philosopher";
+  font-family: 'Philosopher', sans-serif;
   font-size: 1rem;
   text-decoration: none;
   letter-spacing: 1px;
-  color: black;
   padding: 5px;
 }
 
@@ -108,7 +117,7 @@ header a,
 }
 
 body {
-  font-family: "Mulish";
+  font-family: 'Mulish', sans-serif;
   font-size: 0.9rem;
   margin: 0px;
   color: black;
@@ -151,7 +160,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Philosopher";
+  font-family: 'Philosopher', sans-serif;
   margin: 2rem 0 1rem 0;
 }
 
