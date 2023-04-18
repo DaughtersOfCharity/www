@@ -73,7 +73,8 @@ Au-delà de la commune et pour assurer un accompagnement optimal de nos résiden
 
 Notre maison s'engage également dans la formation de la prochaine génération en accueillant régulièrement des stagiaires des lycées professionnels et centres de formations du Grand Périgueux (MFR, CFA…), dans nos différents services : buanderie, cuisine, accompagnement des résidents, animation… Ces périodes de stage sont également l'occasion pour notre équipe de découvrir de nouvelles techniques et de nouvelles méthodes d'accompagnement, de mettre à jour nos connaissances et compétences.
 
-L'accueil hôtelier de l'Oasis <!-- mettre le lien du site ? --> nous permet d'accueillir le monde extérieur : retraites religieuses, pèlerins, touristes, familles… Entièrement rénové en 2015, l'Oasis abrite 28 chambres (dont 3 chambres PMR) sur deux niveaux - 1 chambre familiale, 6 chambres doubles et 21 chambres simples.
+L'accueil hôtelier de l'Oasis nous permet d'accueillir le monde extérieur : retraites religieuses, pèlerins, touristes, familles… Entièrement rénové en 2015, l'Oasis abrite 28 chambres (dont 3 chambres PMR) sur deux niveaux - 1 chambre familiale, 6 chambres doubles et 21 chambres simples.
+
 Afin d'améliorer notre offre et cibler également un public professionnel, les travaux de rénovation du bâtiment "Le Chalet" comprennent également la mise aux normes incendie et accessibilité d'une salle de conférence (équipée d'un système audio et vidéo) ainsi qu'une salle de restauration pouvant accueillir une quarantaine de personnes.
 
 L'établissement tisse enfin des liens avec le réseau associatif local par différents projets : temps d'échange intergénérationnels avec le Centre de loisirs ou l'Association Les P'tits Princes, temps de rencontres avec le club du 3ème âge Lou Castel, l'EHPAD Centre Ressources d'Agonac…

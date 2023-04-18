@@ -37,13 +37,47 @@ header a,
   text-decoration: none;
 }
 
+nav .oasis-container {
+  padding-left: 1rem;
+  border-left: 1px solid white;
+}
+
 nav .oasis {
-  height: 100px;
+  height: 6.3rem;
   background: #fff;
   color: #002060;
   text-align: center;
   font-weight: bold;
-  border-radius: 10px;
+  border-radius: 0.5rem;
+}
+
+nav .oasis img {
+  height: 1.3rem;
+}
+
+.content picture.oasis-title {
+  display: flex;
+  justify-content: center;
+  width: 10rem;
+  margin-bottom: 5vh;
+}
+
+.btn.oasis-cta {
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  text-decoration: none;
+  padding: 1em 2em;
+  width: auto;
+  background: #002060;
+  color: #fff;
+}
+
+.btn.oasis-cta:hover {
+  background-color: #fff;
+  color:#002060;
+  border: 1px solid #002060;
 }
 
 .header {
