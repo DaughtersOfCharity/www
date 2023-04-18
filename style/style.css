@@ -13,7 +13,7 @@ html {
 /* Le style du header et du menu de navigation */
 
 header {
-  font-family: 'Philosopher', sans-serif;
+  font-family: "Philosopher", sans-serif;
   font-size: 3.5rem;
   text-align: center;
   width: 100%;
@@ -35,6 +35,15 @@ header a,
 .langue a {
   color: #002060;
   text-decoration: none;
+}
+
+nav .oasis {
+  height: 100px;
+  background: #fff;
+  color: #002060;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 10px;
 }
 
 .header {
@@ -86,7 +95,7 @@ header a,
 } */
 
 .menu a {
-  font-family: 'Philosopher', sans-serif;
+  font-family: "Philosopher", sans-serif;
   font-size: 1rem;
   text-decoration: none;
   letter-spacing: 1px;
@@ -117,7 +126,7 @@ header a,
 }
 
 body {
-  font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
   font-size: 0.9rem;
   margin: 0px;
   color: black;
@@ -160,7 +169,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Philosopher', sans-serif;
+  font-family: "Philosopher", sans-serif;
   margin: 2rem 0 1rem 0;
 }
 
