@@ -6,7 +6,7 @@ permalink: /oasis/
 ---
 
 <picture class="oasis-title">
-  <source srcset="images/oasis.webp" type="image/webp">
+  <source srcset="/images/oasis.webp" type="image/webp">
   <img src="/images/oasis.jpg" alt="L'Oasis">
 </picture>
 
