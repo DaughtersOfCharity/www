@@ -151,6 +151,7 @@ nav .oasis img {
 
 /* Le style des liens */
 a {
+  color: darkblue;
   text-decoration-color: darkblue;
 }
 
