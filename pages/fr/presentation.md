@@ -13,8 +13,6 @@ La Maison Saint Vincent fut fondée le 29 septembre 1869 en l’honneur de la c�
 
 Les bâtiments et le terrain appartiennent à la Compagnie des Filles de la Charité, société de vie apostolique féminine fondée par Saint Vincent de Paul et Sainte Louise de Marillac en 1633, consacrée au service corporel et spirituel des pauvres, des malades et des enfants.
 
-<!-- mettre un "more" ?-->
-
 En 1869, trois Sœurs s’y installent et ouvrent une classe maternelle. Elles prendront progressivement en charge les visites des malades à domicile, puis un dispensaire et accueillent les Sœurs des régions environnantes en retraite. L’établissement développe son ouverture sur l’extérieur (accueil d’œuvres caritatives, catéchèse, aumônerie, etc.) puis se transforme progressivement en maison de retraite (il sera reconnu comme tel par la DRASS en 1991). 
 
 Au départ, réservé aux Filles de la Charité âgées du Grand Sud-Ouest, d'importants travaux de modernisation et de mise aux normes permettent **l'ouverture aux résidents laïcs** depuis 2020, géré par une **Association laïque indépendante d'inspiration vincentienne** créée dans ce but. Le **statut d'EHPA** est officialisé par le Conseil Départemental, et la Maison Saint Vincent adopte désormais une **logique domiciliaire**. 

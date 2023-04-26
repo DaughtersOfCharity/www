@@ -35,7 +35,7 @@ La **chapelle** fait partie de l’histoire de la Maison Saint Vincent, elle est
 
 <!-- photo de la chapelle-->
 
-Enfin, si vos proches souhaient rester quelques jours auprès de vous, des chambres peuvent être louées à <a href="https://oasis.maisonstvincent.fr/" l’Oasis</a> (notre accueil hôtelier situé dans l’enceinte de l’établissement).
+Enfin, si vos proches souhaient rester quelques jours auprès de vous, des chambres peuvent être louées à <a href="https://oasis.maisonstvincent.fr/"> l’Oasis</a> (notre accueil hôtelier situé dans l’enceinte de l’établissement).
 
 <!-- photo d'une chambre à l'Oasis-->
 
