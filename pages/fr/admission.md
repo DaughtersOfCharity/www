@@ -11,7 +11,7 @@ Nous accueillons des **personnes âgées de plus de 60 ans** (sauf dérogation d
 
 Notre établissement est un **domicile**, et à ce titre, les résidents sont libres d'aller et venir dans l'enceinte du parc comme à l'extérieur de l'établissement.
 
-La demande d'admission se fait sur dossier, depuis la plateforme <a href="https://trajectoire.sante-ra.fr/Trajectoire/">ViaTrajectoire</a> ou sur <a href="/docs/Dossier_admission.pdf">papier</a>.  
+La demande d'admission se fait sur dossier, depuis la plateforme <a href="https://trajectoire.sante-ra.fr/Trajectoire/">ViaTrajectoire</a> ou sur <a href="/docs/Dossier_admission.pdf" download>papier</a>.  
 Cette demande est alors évaluée en fonction des possibilités d'accueil de l'établissement et du niveau d'accompagnement requis par la personne, en prenant en compte l'ancienneté de la demande et son urgence. Une demande peut cependant être déposée pour une entrée ultérieure, le demandeur sera alors placé sur liste d'attente et contacté régulièrement lorsqu'une place se libère.
 
 Lorsque votre admission est acceptée, nous vous adressons un dossier d'accueil vous permettant de préparer votre entrée, comprenant des documents d'information (livret d'accueil, trousseau, grille des tarifs, numéros et mails utiles, etc.) et des documents à compléter et nous remettre nous permettant à notre tour de mieux vous connaître et mieux vous accompagner (histoire de vie, goûts, habitudes, personnes référentes, personne de confiance, choix du niveau d'accompagnement en fonction de vos capacités, etc.). 
