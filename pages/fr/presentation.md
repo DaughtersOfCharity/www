@@ -35,8 +35,6 @@ Au-delà de ces préceptes Vincentiens, nos actions sont guidées dans le respec
 
 Une **équipe pluridisciplinaire** est à votre service pour vous garantir un **accompagnement global et de qualité**. La confection des repas et l'entretien du linge sont gérés en interne, par notre personnel.   
 
-<!-- mettre un "more" ?-->
-
 Nous garantissons à nos salariés des **formations régulières**, leur permettant d’être à jour des évolutions de leur métier ainsi que des normes et procédures qui s’y rattachent, mais également d’anticiper leur évolution de carrière. Le plan de formation est réalisé chaque année en collaboration avec les salariés, en fonction des besoins de leur poste (formations « techniques » ou imposées par la réglementation) et de leurs envies.
 
 Cette politique de formation, couplée à des projets de cohésion d’équipe (repas de salariés, réalisation d’animations pour les résidents, participation aux transformations de l’établissement et à son aménagement), créent un environnement « où il fait bon travailler ».
