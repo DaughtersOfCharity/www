@@ -149,6 +149,17 @@ nav .oasis img {
   clear: both;
 }
 
+/* Le style des liens */
+a {
+  text-decoration-color: darkblue;
+}
+
+a:hover
+a:active{
+  text-decoration: underline;
+}
+
+
 /* Le style du contenu */
 
 .content {
