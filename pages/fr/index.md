@@ -9,13 +9,11 @@ permalink: /
 
 # L'esprit de la Maison
 
-Située **au cœur du village de Château l’Evêque** depuis plus de 150 ans, à proximité des services et commerces (mairie, bibliothèque, boulangerie-épicerie, centre médical et centre scolaire), notre Maison fut fondée par trois Filles de la Charité en 1869.
+Située **au cœur du village de Château l’Evêque** depuis plus de 150 ans, au sein d'un **parc arboré** de 2 hectares et **à proximité des services et commerces communaux** (mairie, agence postale et maison France Services, bibliothèque, boulangerie-épicerie, centre médical, halle du marché, salon de coiffure et centre scolaire), notre Maison fut fondée par trois Filles de la Charité en 1869. 
 
-La Maison Saint Vincent accueille désormais des personnes autonomes ou semi-autonomes, en séjour temporaire ou permanent. Notre établissement, géré par une Association à loi 1901 et à but non lucratif, est non médicalisé et fonctionne à ce titre comme un domicile : les soins sont assurés par les infirmières libérales de la commune, et l'accompagnement des résidents par les services d'aide à domicile publics ou privés du Département.
+La Maison Saint Vincent accueille désormais **des personnes autonomes ou semi-autonomes**, en **séjour temporaire ou permanent**. Notre établissement, géré par une Association à loi 1901 et à but non lucratif, est **non médicalisé** et fonctionne à ce titre comme un **domicile** : les soins sont assurés par les infirmières libérales de la commune, et l'accompagnement des résidents par les services d'aide à domicile publics ou privés du Département.
 
-Installée au sein d'un parc arboré de 3 hectares, les résidents bénéficient aussi de la proximité des commerces et services locaux (boulangerie, centre médical, halle du marché, salon de coiffure...).
-
-La Chapelle de l'établissement est accessible à tous les résidents à toute heure et une messe y est célébrée quotidiennement.
+La Chapelle de l'établissement est accessible à tous les résidents depuis la salle à manger, à toute heure et une messe y est célébrée quotidiennement.
 
 # Le mot de l'équipe
 
