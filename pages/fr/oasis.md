@@ -16,4 +16,4 @@ Nous y accueillons également "le monde extérieur" (retraites religieuses, tour
 
 L'Oasis se compose d'un bâtiment rénové en 2015 abritant les chambres (28 chambres dont 3 chambres PMR, et une chambre familiale) et d'un bâtiment indépendant refait à neuf en 2023 regroupant une grande salle de conférences toute équipée, une petite salle de réunion et une grande salle à manger, toutes accessibles PMR et pouvant accueillir jusqu'à 50 personnes.
 
-<p class="text-center"><a class="btn oasis-cta" href="https://oasis.maisonstvincent.fr/">En savoir plus sur l'Oasis</a></p>
+<p class="text-center"><a class="btn oasis-cta" href="https://oasis.maisonstvincent.fr/">En savoir plus sur L'Oasis</a></p>
