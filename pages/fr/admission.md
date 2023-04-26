@@ -47,7 +47,7 @@ Une coiffeuse et une pédicure passent régulièrement, vous aurez donc la possi
 
 ## APA, APL et Aide sociale
 
-Le dossier de **demande d'Allocation Personnalisée d'Autonomie** peut être fait <a href="https://demarches.dordogne.fr/guides-des-aides/dgasp/social-dde-apa/"> en ligne</a>  ou <a href="/docs/Dossier_admission.pdf" download>sur papier</a>.  
+Le dossier de **demande d'Allocation Personnalisée d'Autonomie** peut être fait <a href="https://demarches.dordogne.fr/guides-des-aides/dgasp/social-dde-apa/"> en ligne</a>  ou <a href="/docs/Dossier_APA.pdf" download>sur papier</a>.  
 Ce dossier devra être envoyé à votre Caisse de retraite principale ou au Conseil Départemental, en fonction de votre profil. Une évaluatrice sera missionnée par le Conseil Départemental pour établir un plan d'aide, exprimé en nombre d'heure par besoin identifié (*par exemple : 30 minutes par jour pour la toilette le matin + 1h d'entretien de la chambre par semaine*).  
 En fonction de vos ressources, une participation financière pourra vous être demandée, exprimée en pourcentage du plan d'aide. En revanche, cette aide allouée n'est pas récupérable sur succession.
 
