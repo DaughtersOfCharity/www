@@ -16,6 +16,7 @@
             <label for="email">{% t Votre message %} ({% t requis %})</label>
 			<textarea id="message" placeholder="{% t Votre message %}" required></textarea>
 		</fieldset>
+		<div data-netlify-recaptcha="true"></div>
 		<fieldset>
 			<button name="submit" type="submit" id="contact-submit">{% t Envoyer %}</button>
 		</fieldset>
