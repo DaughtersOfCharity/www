@@ -2,19 +2,19 @@
 	<form name="formulaire-de-contact" action="/merci/" method="POST" data-netlify-recaptcha="true" data-netlify="true">
 		<fieldset>
             <label for="name">{% t Votre nom %} ({% t requis %})</label>
-			<input id="name" placeholder="{% t Votre nom %}" type="text" required>
+			<input id="name" name="name" placeholder="{% t Votre nom %}" type="text" required>
 		</fieldset>
 		<fieldset>
             <label for="email">{% t Votre adresse email%} ({% t requis %})</label>
-			<input id="email" placeholder="{% t Votre adresse email %}" type="email">
+			<input id="email" name="email" placeholder="{% t Votre adresse email %}" type="email">
 		</fieldset>
 		<fieldset>
             <label for="email">{% t Votre numéro de téléphone %} ({% t requis %})</label>
-			<input id="phone" placeholder="{% t Votre numéro de téléphone %}" type="tel" required>
+			<input id="phone" name="telephone" placeholder="{% t Votre numéro de téléphone %}" type="tel" required>
 		</fieldset>
 		<fieldset>
             <label for="email">{% t Votre message %} ({% t requis %})</label>
-			<textarea id="message" placeholder="{% t Votre message %}" required></textarea>
+			<textarea id="message" name="message" placeholder="{% t Votre message %}" required></textarea>
 		</fieldset>
 		<div data-netlify-recaptcha="true"></div>
 		<fieldset>
