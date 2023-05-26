@@ -1,0 +1,19 @@
+<div class="js-carrousel relative">
+  <div class="js-carrousel__container mod--hidden"
+   data-carrousel-btn-previous-img="/images/left.svg"
+   data-carrousel-btn-next-img="/images/right.svg"
+   data-carrousel-btn-previous-text="Voir le contenu précédent"
+   data-carrousel-btn-next-text="Voir le contenu suivant"
+   data-carrousel-span-text-class="invisible"
+   data-carrousel-transition="slide"
+   data-carrousel-existing-hx="h3">
+
+   {% for item in include.items %}
+    <div class="js-carrousel__content">
+      {% assign path = item.path %}
+      {% include image.html.liquid type="default" path=path alt=item.alt caption=item.caption %}
+    </div>
+   {% endfor %}
+
+  </div>
+</div>

@@ -3,27 +3,49 @@ layout: default
 title: Vie quotidienne
 i18n-key: vie
 permalink: /vie/
+carousel1:
+  - alt: Alternative textuelle image 1
+    caption: Légende de l'image 1
+    path: /images/photos/chambre-potentiel-1.jpg
+  - alt: Alternative textuelle image 2
+    caption: Légende de l'image 2
+    path: /images/photos/chambre-potentiel-2.jpg
+carousel2:
+  - alt: Alternative textuelle photo 1
+    caption: Légende de l'image 1
+    path: /images/photos/chambre-habitee-1.jpg
+  - alt: Alternative textuelle photo 2
+    caption: Légende de l'image 2
+    path: /images/photos/chambre-habitee-2.jpg
 ---
 
 # Vos lieux de vie
 
 ## Votre chambre
 
-Votre **chambre** est votre logement privé, vous y êtes **chez vous**, et votre clé vous sera remise dès votre entrée. Dans cet esprit, vous pouvez l’aménager comme vous le souhaitez, en apportant vos meubles et objets personnels, cadres et décorations. Chaque chambre est équipée d’un placard, d’une penderie et d’un lit simple. Vous pouvez si vous le souhaitez apporter également votre lit (simple ou double). Si vous préférez un lit électrique, une ordonnance sera nécessaire, et un contrat de location sera alors créé à votre nom auprès de la pharmacie (cette location est prise en charge en totalité par la sécurité sociale). Des meubles pourront vous être prêtés en cas de besoin (en fonction des meubles disponibles).
+Votre **chambre** est votre logement privé, vous y êtes **chez vous**, et votre clé vous sera remise dès votre entrée. Dans cet esprit, vous pouvez l’aménager comme vous le souhaitez, en apportant vos meubles et objets personnels, cadres et décorations. Chaque chambre est équipée d’un placard, d’une penderie et d’un lit simple.
+
+{% assign items = page.carousel1 %}
+{% include carousel.html.liquid items=items %}
+
+Vous pouvez si vous le souhaitez apporter également votre lit (simple ou double). Si vous préférez un lit électrique, une ordonnance sera nécessaire, et un contrat de location sera alors créé à votre nom auprès de la pharmacie (cette location est prise en charge en totalité par la sécurité sociale). Des meubles pourront vous être prêtés en cas de besoin (en fonction des meubles disponibles).
+
+{% assign items = page.carousel2 %}
+{% include carousel.html.liquid items=items %}
 
 <!-- photo exemple d'une chambre aménagée-->
 
-Sauf urgence ou cas exceptionnel, le personnel respectera votre intimité et entrera dans votre chambre uniquement en votre présence. Vous pouvez recevoir des visites à tout moment (nous vous remercions cependant de nous prévenir en cas de visite avant 7h ou après 21h).  
+Sauf urgence ou cas exceptionnel, le personnel respectera votre intimité et entrera dans votre chambre uniquement en votre présence. Vous pouvez recevoir des visites à tout moment (nous vous remercions cependant de nous prévenir en cas de visite avant 7h ou après 21h).
 
-Chaque chambre est équipée de volets en bois, de prises télévision / téléphone / internet et 5 prises électriques, ainsi que d'un dispositif d'appel malade. Chaque chambre dispose d’une salle d’eau indépendante avec douche adaptée aux personnes à mobilité réduite, lavabo, toilettes et dispositif d’appel malade.
+Chaque chambre est équipée de volets en bois, de p<rises télévision / téléphone / internet et 5 prises électriques, ainsi que d'un dispositif d'appel malade. Chaque chambre dispose d’une salle d’eau indépendante avec douche adaptée aux personnes à mobilité réduite, lavabo, toilettes et dispositif d’appel malade.
 
 ## Les espaces communs
 
-Plusieurs **salles à manger** sont réparties dans l'établissement, permettant en plus des repas en commun des résidents, de partager un repas avec ses proches en toute intimité. La salle à manger principale est également l'endroit privilégié de nombreuses animations (anniversaires, jeux de société, loto, atelier cuisine, atelier décoration...).  
+Plusieurs **salles à manger** sont réparties dans l'établissement, permettant en plus des repas en commun des résidents, de partager un repas avec ses proches en toute intimité. La salle à manger principale est également l'endroit privilégié de nombreuses animations (anniversaires, jeux de société, loto, atelier cuisine, atelier décoration...).
 
 <!-- photo d'une des salles à manger ?-->
 
-Plusieurs **petits salons** sont à votre disposition, équipés de table et chaises et d'une armoire de jeux de société, vous permettant de partager des moments entre résidents ou avec vos proches en dehors de votre chambre. Une bibliothèque est également à votre disposition au deuxième étage. 
+Plusieurs **petits salons** sont à votre disposition, équipés de table et chaises et d'une armoire de jeux de société, vous permettant de partager des moments entre résidents ou avec vos proches en dehors de votre chambre. Une bibliothèque est également à votre disposition au deuxième étage.
 
 <!-- photo d'un salon ?-->
 
@@ -43,7 +65,7 @@ Enfin, si vos proches souhaient rester quelques jours auprès de vous, des chamb
 
 ## La restauration
 
-Les menus sont élaborés par une **Commission menus constituée de résidents volontaires**. Les repas sont **préparés sur place**, en privilégiant des produits frais et locaux. Lors de votre admission, nous recueillons vos goûts et dégoûts, intolérances et régimes médicalement prescrits (ceux-ci seront scrupuleusement respectés et des plats de substitution vous seront proposés). 
+Les menus sont élaborés par une **Commission menus constituée de résidents volontaires**. Les repas sont **préparés sur place**, en privilégiant des produits frais et locaux. Lors de votre admission, nous recueillons vos goûts et dégoûts, intolérances et régimes médicalement prescrits (ceux-ci seront scrupuleusement respectés et des plats de substitution vous seront proposés).
 
 Le petit-déjeuner peut être servi, au choix du résident, en chambre ou dans la salle à manger principale à partir de 7h30. Les repas et collations sont servis en salle à manger (respectivement à partir de 12h, 16h et 19h), sauf sur demande. Une collation en chambre est proposée à ceux qui le souhaitent entre 21h et 22h.
 
@@ -53,13 +75,13 @@ Le linge de lit et la serviette de table sont fournis et entretenus par l’éta
 
 ### Ménage et entretien
 
-Le personnel de l'établissement assure **l'entretien courant des espaces communs**. L'entretien de la chambre et des sanitaires reste à la charge du résident (il peut l'assurer lui-même ou faire appel à des services d'aide à domicile extérieurs). Dans l'attente de validation d'une demande d'APA et de la mise en place des prestations, cet entretien peut être pris en chrage ponctuellement et temporairement par notre personnel. 
+Le personnel de l'établissement assure **l'entretien courant des espaces communs**. L'entretien de la chambre et des sanitaires reste à la charge du résident (il peut l'assurer lui-même ou faire appel à des services d'aide à domicile extérieurs). Dans l'attente de validation d'une demande d'APA et de la mise en place des prestations, cet entretien peut être pris en chrage ponctuellement et temporairement par notre personnel.
 
 Les **petites réparations diverses** (électricité, plomberie, etc.) sont assurées par notre personnel dans les parties communes et privatives de l’établissement (veuillez noter cependant que le personnel d'entretien ne travaille pas le week-end). Les espaces verts sont également entretenus par notre personnel.
 
 ## Les soins d'hygiène et de confort
 
-La Maîtresse de Maison gère la **coordination entre tous les intervenants médicaux et paramédicaux**, prépare les consultations et organise le transport (en VSL ou en ambulance). Selon votre situation, ces transports peuvent ne pas être pris par la Sécurité Sociale ou votre mutuelle. Vous (ou votre famille) pouvez, si vous le souhaitez, gérer la prise de vos rendez-vous et les transports correspondants. Vous pourrez nous informer de votre choix lors de votre entrée. Il pourra néanmoins être modifié ultérieurement sur simple demande auprès de la Maîtresse de Maison. 
+La Maîtresse de Maison gère la **coordination entre tous les intervenants médicaux et paramédicaux**, prépare les consultations et organise le transport (en VSL ou en ambulance). Selon votre situation, ces transports peuvent ne pas être pris par la Sécurité Sociale ou votre mutuelle. Vous (ou votre famille) pouvez, si vous le souhaitez, gérer la prise de vos rendez-vous et les transports correspondants. Vous pourrez nous informer de votre choix lors de votre entrée. Il pourra néanmoins être modifié ultérieurement sur simple demande auprès de la Maîtresse de Maison.
 
 Les **prestations d’accompagnement liées à l’état de dépendance** des résidents seront prises en charge par du **personnel de la structure d’aide à domicile de votre choix**, dans le cadre de l’APA domicile. Néanmoins, ces prestations peuvent être assurées ponctuellement et temporairement par le personnel de l'établissement, le temps que le dossier d'APA soit réalisé ou si ces soins sont rendus temporairement nécessaires du fait d’une dégradation provisoire de votre état de santé (maladie, blessure…).
 
@@ -69,7 +91,7 @@ Une équipe de 7 auxiliaires de vie, dont 2 de nuit, assure une **présence à v
 
 Vous conservez le **libre choix** de tous les intervenants médicaux et paramédicaux. Par défaut, notre établissement fonctionne avec l’hôpital de Périgueux, le cabinet d’infirmières libérales, le kinésithérapeute et la pharmacie de la commune, les ambulances SAS24, ainsi qu'une pédicure et une coiffeuse des alentours. En cas d’urgence en revanche, le personnel de l’établissement fera appel au SAMU ou aux pompiers, qui réguleront alors l’orientation du résident.
 
-Les piluliers sont préparés à titre gracieux par la pharmacie. Vous pouvez toutefois gérer vous-même la prise de vos traitements, auquel cas la pharmacie vous remettra les différents traitements selon les ordonnances. De même, le personnel d'accompagnement est habilité à distribuer vos traitements tout au long de la journée (les piluliers sont préparés par la pharmacie de la commune). Vous pouvez cependant choisir de gérer vous-même la prise de vos traitements. Vous pourrez nous informer de vos choix lors de votre entrée. Il pourront néanmoins être modifiés ultérieurement sur simple demande auprès de la Maîtresse de Maison. 
+Les piluliers sont préparés à titre gracieux par la pharmacie. Vous pouvez toutefois gérer vous-même la prise de vos traitements, auquel cas la pharmacie vous remettra les différents traitements selon les ordonnances. De même, le personnel d'accompagnement est habilité à distribuer vos traitements tout au long de la journée (les piluliers sont préparés par la pharmacie de la commune). Vous pouvez cependant choisir de gérer vous-même la prise de vos traitements. Vous pourrez nous informer de vos choix lors de votre entrée. Il pourront néanmoins être modifiés ultérieurement sur simple demande auprès de la Maîtresse de Maison.
 
 ## L'animation
 
@@ -83,6 +105,6 @@ Notre chapelle est en **libre accès** à tous (résidents, familles, personnel,
 
 La Directrice se tient à votre disposition pour répondre à vos questions administratives, le lundi entre 14h30 et 16h30 ou sur rendez-vous. Votre courrier vous sera apporté quotidiennement lors du déjeuner. L’établissement dispose d’une boîte aux lettres pour tous vos envois postaux.
 
-Les représentantes des résidents du Conseil de la Vie Sociale se tiennent également à votre disposition pour toute question ou remarque relative à la vie au sein de l’établissement. Vous pouvez consulter la liste des membres du CVS sur le tableau d'affichage de l'accueil. 
+Les représentantes des résidents du Conseil de la Vie Sociale se tiennent également à votre disposition pour toute question ou remarque relative à la vie au sein de l’établissement. Vous pouvez consulter la liste des membres du CVS sur le tableau d'affichage de l'accueil.
 
 En cas de désaccord ou de questionnement, des Personnes Qualifiées sont habilitées par le Département à vous conseiller et vous défendre, leur liste est jointe au classeur qui vous sera remis lors de votre entrée.
