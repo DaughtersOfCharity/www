@@ -14,7 +14,6 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Maison Saint Vincent
-email: your-email@example.com
 contact:
   name: Maison Saint Vincent
   address1: 24 rue d'Angoulême
@@ -44,7 +43,7 @@ defaults:
 # Images RWD
 cloudinary:
   origin_url: https://www.maisonstvincent.fr
-  cloud_name: oasis-st-vincent
+  cloud_name: st-vincent
   presets:
     default:
       min_width: 320
