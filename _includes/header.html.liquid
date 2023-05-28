@@ -11,7 +11,7 @@
         if tran_lang == "en" %}{% t anglais %}{% else %}{% t français %}{% endif %}{% endcapture %}
         {% endif %}
         <nav class="nav">
-            <ul>{% assign menu = site.data.menu[lang] %}{% for item in menu %}{% assign li_url = item.url | prepend: page.base-url | append: "/" %}
+            <ul>{% assign menu = site.data.menu[lang] %}{% for item in menu %}{% assign li_url = item.url | append: "/" %}
                 <li {% if li_url == page.url %}class="active"{% endif %}>
                     <a href="{{ li_url }}">{{ item.name }}</a>
                 </li>                    

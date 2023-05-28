@@ -1,13 +1,13 @@
 fr:
   - url: ""
     name: "Accueil"
-  - url: "vie"
+  - url: "/vie"
     name: "La Vie à la Maison"
-  - url: "admission"
+  - url: "/admission"
     name: "Admission"
-  - url: "presentation"
+  - url: "/presentation"
     name: "Notre Histoire"
-  - url: "contact"
+  - url: "/contact"
     name: "Contact"
 en:
   - url: ""
