@@ -54,12 +54,37 @@ coin:
     Plusieurs options d'assises permettent à chaque résident d'être à l'aise lors de ses moments ludiques.
   path: /images/photos/vie-2.jpg
 
-parc:
-  alt: >-
-    Un grand parc arboré traversé par une allée goudronnée parsemée de bancs.
-  caption: >-
-    Notre parc arboré offre des assises ombragées pour des pauses en cours de promenade.
-  path: /images/photos/parc.jpg
+exterieur:
+  - alt: >-
+      Un grand parc arboré traversé par une allée goudronnée parsemée de bancs.
+    caption: >-
+      Notre parc arboré offre des assises ombragées pour des pauses en cours de promenade.
+    path: /images/photos/parc.jpg
+  - alt: >-
+      Un grand parc arboré traversé par une allée goudronnée parsemée de bancs.
+    caption: >-
+      Notre parc arboré offre des assises ombragées pour des pauses en cours de promenade.
+    path: /images/photos/fleurs.jpg
+  - alt: >-
+      Un grand parc arboré traversé par une allée goudronnée parsemée de bancs.
+    caption: >-
+      Notre parc arboré offre des assises ombragées pour des pauses en cours de promenade.
+    path: /images/photos/balcon.jpg
+  - alt: >-
+      Un grand parc arboré traversé par une allée goudronnée parsemée de bancs.
+    caption: >-
+      Notre parc arboré offre des assises ombragées pour des pauses en cours de promenade.
+    path: /images/photos/vue-1.jpg
+  - alt: >-
+      Un grand parc arboré traversé par une allée goudronnée parsemée de bancs.
+    caption: >-
+      Notre parc arboré offre des assises ombragées pour des pauses en cours de promenade.
+    path: /images/photos/vue-2.jpg
+  - alt: >-
+      Un grand parc arboré traversé par une allée goudronnée parsemée de bancs.
+    caption: >-
+      Notre parc arboré offre des assises ombragées pour des pauses en cours de promenade.
+    path: /images/photos/canal.jpg
 
 
 chapelle:
@@ -83,6 +108,26 @@ chapelle:
     caption: >-
       Vue en contreplongée de la chapelle, depuis le balcon haut. 
     path: /images/photos/chapelle-2.jpg
+
+
+oasis:
+  alt: >-
+    Chambre simple mansardée avec arcade en pierre apparente. Lit, table de chevet, penderie et bureaux permettent une installation confortable.
+  caption: >-
+    Une des chambres simples à l'étage de l'Oasis.
+  path: /images/photos/oasis.jpg
+
+espaces-commun:
+  - alt: >-
+      Une salle d'eau mono-bloc avec une douche à l'italienne, un lavabo et un large miroir, ainsi qu'une assise en plastique permettant une toilette dans une position confortable.
+    caption: >-
+      Douche à l'italienne et coin lavabo, entièrement adaptés aux personnes à mobilité réduite.
+    path: /images/photos/salle-eau-2.jpg
+  - alt: >-
+      Même salee d'eau sous un autre angle, dévoilant la partie sanitaire et laissant apercevoir une cordelette de sécurité.
+    caption: >-
+      Des sanitaires également adaptés et un dispositif d'appel malade.
+    path: /images/photos/salle-eau-1.jpg
 
 ---
 
@@ -116,7 +161,7 @@ Plusieurs **petits salons** sont à votre disposition, équipés de table et cha
 
 Les **terrasses extérieures** au rez-de-chaussée et au 1er étage sont équipées de chaises et parasols aux beaux jours. Une tonnelle est également installée à proximité de la cuisine de mai à septembre, permettant de prendre des repas en extérieur ou simplement de profiter d’un moment de calme dans la journée. Le **parc de 2 hectares** est à votre disposition. Une promenade goudronnée, accessible aux personnes à mobilité réduite, en fait le tour (env. 1 km).
 
-{% include image.html.liquid type="default" path=page.parc.path alt=page.parc.alt caption=page.parc.caption %}
+{% include carousel.html.liquid items=page.exterieur %}
 
 La **chapelle** fait partie de l’histoire de la Maison Saint Vincent, elle est accessible de l’extérieur et de l’intérieur par tous les résidents qui le souhaitent pour les offices quotidiens ou festifs ainsi qu’en dehors des offices et pour des célébrations particulières (enterrement, à la demande des familles, baptêmes, anniversaires de mariage des résidents, jubilés des Sœurs, etc.).
 
@@ -124,7 +169,7 @@ La **chapelle** fait partie de l’histoire de la Maison Saint Vincent, elle est
 
 Enfin, si vos proches souhaient rester quelques jours auprès de vous, des chambres peuvent être louées à <a href="https://oasis.maisonstvincent.fr/"> l’Oasis</a> (notre accueil hôtelier situé dans l’enceinte de l’établissement).
 
-<!-- photo d'une chambre à l'Oasis-->
+{% include image.html.liquid type="default" path=page.oasis.path alt=page.oasis.alt caption=page.oasis.caption %}
 
 # Votre vie quotidienne
 
