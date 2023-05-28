@@ -3,20 +3,87 @@ layout: default
 title: Vie quotidienne
 i18n-key: vie
 permalink: /vie/
-carousel1:
-  - alt: Alternative textuelle image 1
-    caption: Légende de l'image 1
+
+chambre-vide:
+  - alt: >-
+      Photo d'une chambre vide. Un des murs est de couleur, les autres ainsi que le chauffage sont très clairs, presque blancs. De la lumière rentre par la fenêtre, inondant la pièce. On aperçoit de multiples prises  ainsi qu'un dispositif avec un cable attaché dans le mur.
+    caption: >-
+      Récemment rénovée, nos chambres offrent calme et luminosité.
     path: /images/photos/chambre-potentiel-1.jpg
-  - alt: Alternative textuelle image 2
-    caption: Légende de l'image 2
+  - alt: >-
+      Même chambre photographiée dans un autre angle, permettant de voir le placard et la penderie.
+    caption: >-
+      Chaque chambre est équipée d’un placard, d’une penderie et si vous le souhaitez, d’un lit simple.
     path: /images/photos/chambre-potentiel-2.jpg
-carousel2:
-  - alt: Alternative textuelle photo 1
-    caption: Légende de l'image 1
+
+chambre-meublee:
+  - alt: >-
+      Une chambre meublée d'un lit, d'un fauteil, d'une armoire, de deux bureaux et d'une commode.
+    caption: >-
+      Une chambre nouvellement occupée par une résidente.
     path: /images/photos/chambre-habitee-1.jpg
-  - alt: Alternative textuelle photo 2
-    caption: Légende de l'image 2
+  - alt: >-
+      Même chambre sous un autre angle. On aperçoit un écran plat accroché au mur, ainsi que quelques élément de décoration posés sur la commode : statuettes, cartes, fleurs…
+    caption: >-
+      De nombreux résidents s'équipent d'une télévision.
     path: /images/photos/chambre-habitee-2.jpg
+
+salle-eau:
+  - alt: >-
+      Une salle d'eau mono-bloc avec une douche à l'italienne, un lavabo et un large miroir, ainsi qu'une assise en plastique permettant une toilette dans une position confortable.
+    caption: >-
+      Douche à l'italienne et coin lavabo, entièrement adaptés aux personnes à mobilité réduite.
+    path: /images/photos/salle-eau-2.jpg
+  - alt: >-
+      Même salee d'eau sous un autre angle, dévoilant la partie sanitaire et laissant apercevoir une cordelette de sécurité.
+    caption: >-
+      Des sanitaires également adaptés et un dispositif d'appel malade.
+    path: /images/photos/salle-eau-1.jpg
+
+sam:
+  alt: >-
+    Vaste salle à manger avec plusieurs tables rectangulaires colorées accolées les unes aux autres.
+  caption: >-
+    Une de nos salles à manger.
+  path: /images/photos/vie-6.jpg
+
+coin:
+  alt: >-
+    Un petit salon de lecture au détout d'un couloir, avec un canapé, une chaise et un fauteil ergonomique.
+  caption: >-
+    Plusieurs options d'assises permettent à chaque résident d'être à l'aise lors de ses moments ludiques.
+  path: /images/photos/vie-2.jpg
+
+parc:
+  alt: >-
+    Un grand parc arboré traversé par une allée goudronnée parsemée de bancs.
+  caption: >-
+    Notre parc arboré offre des assises ombragées pour des pauses en cours de promenade.
+  path: /images/photos/parc.jpg
+
+
+chapelle:
+  - alt: >-
+      Vue de la chapelle depuis l'entrée. Les grands vitraux inondent de lumière les bancs. Au fond, le majestueux hotel. 
+    caption: >-
+      Cette chapelle gothique construite au XVIIème a été rénovée au XXème siècle, pour un résultat des plus lumineux.
+    path: /images/photos/chapelle-4.jpg
+  - alt: >-
+      Au milieu d'un couloir d'habitation, une porte mène au balcon haut.
+    caption: >-
+      Notre chapelle est parfaitement intégrée à l'établissement, facile d'accès pour les résidents.
+    path: /images/photos/chapelle-1.jpg
+  - alt: >-
+      Une grande porte en bois, solennelle, menant au rez-de-chaussée de la chapelle.
+    caption: >-
+      L'entrée du rez-de-chaussée est également empruntée par les visiteurs et des croyants du village.
+    path: /images/photos/chapelle-3.jpg
+  - alt: >-
+      Vue en contreplongée de la chapelle, depuis le balcon haut. Des vitraux colorés illuminent une dizaine de rangées de bancs en bois accueillant les croyants.
+    caption: >-
+      Vue en contreplongée de la chapelle, depuis le balcon haut. 
+    path: /images/photos/chapelle-2.jpg
+
 ---
 
 # Vos lieux de vie
@@ -25,37 +92,35 @@ carousel2:
 
 Votre **chambre** est votre logement privé, vous y êtes **chez vous**, et votre clé vous sera remise dès votre entrée. Dans cet esprit, vous pouvez l’aménager comme vous le souhaitez, en apportant vos meubles et objets personnels, cadres et décorations. Chaque chambre est équipée d’un placard, d’une penderie et d’un lit simple.
 
-{% assign items = page.carousel1 %}
-{% include carousel.html.liquid items=items %}
+{% include carousel.html.liquid items=page.chambre-vide %}
 
 Vous pouvez si vous le souhaitez apporter également votre lit (simple ou double). Si vous préférez un lit électrique, une ordonnance sera nécessaire, et un contrat de location sera alors créé à votre nom auprès de la pharmacie (cette location est prise en charge en totalité par la sécurité sociale). Des meubles pourront vous être prêtés en cas de besoin (en fonction des meubles disponibles).
 
-{% assign items = page.carousel2 %}
-{% include carousel.html.liquid items=items %}
-
-<!-- photo exemple d'une chambre aménagée-->
+{% include carousel.html.liquid items=page.chambre-meublee %}
 
 Sauf urgence ou cas exceptionnel, le personnel respectera votre intimité et entrera dans votre chambre uniquement en votre présence. Vous pouvez recevoir des visites à tout moment (nous vous remercions cependant de nous prévenir en cas de visite avant 7h ou après 21h).
 
-Chaque chambre est équipée de volets en bois, de p<rises télévision / téléphone / internet et 5 prises électriques, ainsi que d'un dispositif d'appel malade. Chaque chambre dispose d’une salle d’eau indépendante avec douche adaptée aux personnes à mobilité réduite, lavabo, toilettes et dispositif d’appel malade.
+Chaque chambre est équipée de volets en bois, de prises télévision, téléphone et internet, ainsi que de 5 prises électriques, et d'un dispositif d'appel malade. Chaque chambre dispose d’une salle d’eau indépendante avec douche adaptée aux personnes à mobilité réduite, lavabo, toilettes et dispositif d’appel malade.
+
+{% include carousel.html.liquid items=page.salle-eau %}
 
 ## Les espaces communs
 
 Plusieurs **salles à manger** sont réparties dans l'établissement, permettant en plus des repas en commun des résidents, de partager un repas avec ses proches en toute intimité. La salle à manger principale est également l'endroit privilégié de nombreuses animations (anniversaires, jeux de société, loto, atelier cuisine, atelier décoration...).
 
-<!-- photo d'une des salles à manger ?-->
+{% include image.html.liquid type="default" path=page.sam.path alt=page.sam.alt caption=page.sam.caption %}
 
 Plusieurs **petits salons** sont à votre disposition, équipés de table et chaises et d'une armoire de jeux de société, vous permettant de partager des moments entre résidents ou avec vos proches en dehors de votre chambre. Une bibliothèque est également à votre disposition au deuxième étage.
 
-<!-- photo d'un salon ?-->
+{% include image.html.liquid type="default" path=page.coin.path alt=page.coin.alt caption=page.coin.caption %}
 
 Les **terrasses extérieures** au rez-de-chaussée et au 1er étage sont équipées de chaises et parasols aux beaux jours. Une tonnelle est également installée à proximité de la cuisine de mai à septembre, permettant de prendre des repas en extérieur ou simplement de profiter d’un moment de calme dans la journée. Le **parc de 2 hectares** est à votre disposition. Une promenade goudronnée, accessible aux personnes à mobilité réduite, en fait le tour (env. 1 km).
 
-<!-- photo du parc-->
+{% include image.html.liquid type="default" path=page.parc.path alt=page.parc.alt caption=page.parc.caption %}
 
 La **chapelle** fait partie de l’histoire de la Maison Saint Vincent, elle est accessible de l’extérieur et de l’intérieur par tous les résidents qui le souhaitent pour les offices quotidiens ou festifs ainsi qu’en dehors des offices et pour des célébrations particulières (enterrement, à la demande des familles, baptêmes, anniversaires de mariage des résidents, jubilés des Sœurs, etc.).
 
-<!-- photo de la chapelle-->
+{% include carousel.html.liquid items=page.chapelle %}
 
 Enfin, si vos proches souhaient rester quelques jours auprès de vous, des chambres peuvent être louées à <a href="https://oasis.maisonstvincent.fr/"> l’Oasis</a> (notre accueil hôtelier situé dans l’enceinte de l’établissement).
 

@@ -1,4 +1,7 @@
-.relative { position: relative; }
+.relative { 
+  position: relative; 
+  aspect-ratio: 4 / 3;
+}
 .mod--hidden { overflow: hidden; }
 
 .invisible {
@@ -14,14 +17,16 @@
 
 .carrousel__container {
   white-space: nowrap;
+  max-width: calc( 100% - 50px);
+  margin: 0 auto;
 }
 .carrousel__control__list {
-  position: absolute;
+  /*position: absolute;*/
   list-style-type: none;
-  top: 100%;
+  /*top: 100%;*/
   right: 0;
   left: 0;
-  margin-top: -0.5em;
+  margin: 0 0 0.5rem 0;
   padding-left: 0;
   text-align: center;
 }
@@ -46,13 +51,13 @@
   top: 50%;
   margin-top: -18px;
   left: 0;
-  margin-left: -35px;
+  margin-left: 0;
 }
 .carrousel__button__next {
   top: 50%;
   margin-top: -18px;
   right: 0;
-  margin-right: -35px;
+  margin-right: 0;
 }
 .carrousel__button__button {
   margin: 0;
