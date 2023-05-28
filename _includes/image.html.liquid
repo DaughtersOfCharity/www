@@ -1,3 +1,4 @@
+{% assign loading = include.loading|default:"eager" %}
 {% if include.caption %}
     {% if include.type %}
         {% cloudinary 
@@ -5,12 +6,14 @@
             {{ include.path }}
             alt="{{ include.alt | escape }}"
             caption="{{ include.caption | markdownify }}"
+            loading="{{ loading }}"
         %}
     {% else %}
         {% cloudinary 
             {{ include.path }}
             alt="{{ include.alt | escape }}"
             caption="{{ include.caption | markdownify }}"
+            loading="{{ loading }}"
         %}
     {% endif %}
 {% else %}
@@ -19,11 +22,13 @@
             {{ include.type }} 
             {{ include.path }}
             alt="{{ include.alt | escape }}"
+            loading="{{ loading }}"
         %}
     {% else %}
         {% cloudinary 
             {{ include.path }}
             alt="{{ include.alt | escape }}"
+            loading="{{ loading }}"
         %}
     {% endif %}
 {% endif %}

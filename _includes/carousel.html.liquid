@@ -11,7 +11,11 @@
    {% for item in include.items %}
     <div class="js-carrousel__content">
       {% assign path = item.path %}
-      {% include image.html.liquid type="default" path=path alt=item.alt caption=item.caption %}
+      {% if include.loading %}
+        {% include image.html.liquid type="default" path=path alt=item.alt caption=item.caption loading=include.loading %}
+      {% else %}
+        {% include image.html.liquid type="default" path=path alt=item.alt caption=item.caption %}
+      {% endif %}
     </div>
    {% endfor %}
 

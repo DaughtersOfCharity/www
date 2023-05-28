@@ -61,54 +61,43 @@ exterieur:
       Notre parc arboré offre des assises ombragées pour des pauses en cours de promenade.
     path: /images/photos/parc.jpg
   - alt: >-
-      Un grand parc arboré traversé par une allée goudronnée parsemée de bancs.
+      Photo en gros plan d'un de nos massifs de roses.
     caption: >-
-      Notre parc arboré offre des assises ombragées pour des pauses en cours de promenade.
+      Une attention particulière est portée aux fleurs qui apportent couleur et sérénité.
     path: /images/photos/fleurs.jpg
   - alt: >-
-      Un grand parc arboré traversé par une allée goudronnée parsemée de bancs.
+      Photo prise depuis un balcon. On y voit la cage d'escalier moderne, toute en métal et en verre, se dégager devant les arbres du parc.
     caption: >-
-      Notre parc arboré offre des assises ombragées pour des pauses en cours de promenade.
+      L'architecture unique du batiment unie modernité et nature.
     path: /images/photos/balcon.jpg
   - alt: >-
-      Un grand parc arboré traversé par une allée goudronnée parsemée de bancs.
+      Plusieurs parterres de pelouses entourés de fleurs donnent sur le canal puis l'allée. Derrière l'allée, on devine le parc derrière de grands arbres.
     caption: >-
-      Notre parc arboré offre des assises ombragées pour des pauses en cours de promenade.
+      Vue sur le canal et derrière, le parc, depuis le premier étage.
     path: /images/photos/vue-1.jpg
   - alt: >-
-      Un grand parc arboré traversé par une allée goudronnée parsemée de bancs.
+      L'entrée intérieure du bâtiment, accessible via une voie goudronnée bien entretenue.
     caption: >-
-      Notre parc arboré offre des assises ombragées pour des pauses en cours de promenade.
+      La promenade intérieure démarre par une zone parfaitement goudronnée, permettant chaque jour aux résidents à la mobilité la plus réduite de sortir aisément.
     path: /images/photos/vue-2.jpg
   - alt: >-
-      Un grand parc arboré traversé par une allée goudronnée parsemée de bancs.
+      Photo d'un canal avec sur la gauche, l'établissement et sur la droite, l'allée pour les véhicules. Plusieurs ponts permettent la traversée.
     caption: >-
-      Notre parc arboré offre des assises ombragées pour des pauses en cours de promenade.
+      La Beauronne de Chancelade (un ruisseau affluent de l'Isle) traverse l'établissment dans un canal.
     path: /images/photos/canal.jpg
 
 
-chapelle:
-  - alt: >-
-      Vue de la chapelle depuis l'entrée. Les grands vitraux inondent de lumière les bancs. Au fond, le majestueux hotel. 
-    caption: >-
-      Cette chapelle gothique construite au XVIIème a été rénovée au XXème siècle, pour un résultat des plus lumineux.
-    path: /images/photos/chapelle-4.jpg
+chapelle1:
   - alt: >-
       Au milieu d'un couloir d'habitation, une porte mène au balcon haut.
     caption: >-
       Notre chapelle est parfaitement intégrée à l'établissement, facile d'accès pour les résidents.
     path: /images/photos/chapelle-1.jpg
   - alt: >-
-      Une grande porte en bois, solennelle, menant au rez-de-chaussée de la chapelle.
-    caption: >-
-      L'entrée du rez-de-chaussée est également empruntée par les visiteurs et des croyants du village.
-    path: /images/photos/chapelle-3.jpg
-  - alt: >-
       Vue en contreplongée de la chapelle, depuis le balcon haut. Des vitraux colorés illuminent une dizaine de rangées de bancs en bois accueillant les croyants.
     caption: >-
       Vue en contreplongée de la chapelle, depuis le balcon haut. 
     path: /images/photos/chapelle-2.jpg
-
 
 oasis:
   alt: >-
@@ -119,15 +108,37 @@ oasis:
 
 espaces-commun:
   - alt: >-
-      Une salle d'eau mono-bloc avec une douche à l'italienne, un lavabo et un large miroir, ainsi qu'une assise en plastique permettant une toilette dans une position confortable.
+      L'ascendeur de l'établissement
     caption: >-
-      Douche à l'italienne et coin lavabo, entièrement adaptés aux personnes à mobilité réduite.
-    path: /images/photos/salle-eau-2.jpg
+      Notre ascenseur permet aux résidents de se déplacer librement entre les étages, utilisant si nécessaire les rampes prévues à cet effet.
+    path: /images/photos/vie-4.jpg
   - alt: >-
-      Même salee d'eau sous un autre angle, dévoilant la partie sanitaire et laissant apercevoir une cordelette de sécurité.
+      Un couloir lumineux. On devine plusieurs portes sur la droite, entre les rampes. Sur la gauche, les fenêtres sont ouvertes.
     caption: >-
-      Des sanitaires également adaptés et un dispositif d'appel malade.
-    path: /images/photos/salle-eau-1.jpg
+      Notre personne porte une attention particulière aux espaces communs.
+    path: /images/photos/vie-3.jpg
+  - alt: >-
+      Une portion de couloir. Un panneau vertical a été peint en rouge et décoré de fleurs. Deux cadres sont accrochés aux murs, avec un tableau et un miroir.
+    caption: >-
+      L'esthétique du bâtiment apporte de la joie.
+    path: /images/photos/vie-5.jpg
+  - alt: >-
+      Un chariot en bois et céramique, rempli de plantes vertes, est calé sur le côté d'un couloir.
+    caption: >-
+      Notre personnel prend soin des plantes vertes des résidents.
+    path: /images/photos/vie-1.jpg
+
+chapelle2:
+  - alt: >-
+      Vue de la chapelle depuis l'entrée. Les grands vitraux inondent de lumière les bancs. Au fond, le majestueux hotel. 
+    caption: >-
+      Cette chapelle gothique construite au XVIIème a été rénovée au XXème siècle, pour un résultat des plus lumineux.
+    path: /images/photos/chapelle-4.jpg
+  - alt: >-
+      Une grande porte en bois, solennelle, menant au rez-de-chaussée de la chapelle.
+    caption: >-
+      L'entrée du rez-de-chaussée est également empruntée par les visiteurs et des croyants du village.
+    path: /images/photos/chapelle-3.jpg
 
 ---
 
@@ -141,35 +152,35 @@ Votre **chambre** est votre logement privé, vous y êtes **chez vous**, et votr
 
 Vous pouvez si vous le souhaitez apporter également votre lit (simple ou double). Si vous préférez un lit électrique, une ordonnance sera nécessaire, et un contrat de location sera alors créé à votre nom auprès de la pharmacie (cette location est prise en charge en totalité par la sécurité sociale). Des meubles pourront vous être prêtés en cas de besoin (en fonction des meubles disponibles).
 
-{% include carousel.html.liquid items=page.chambre-meublee %}
+{% include carousel.html.liquid items=page.chambre-meublee loading="lazy" %}
 
 Sauf urgence ou cas exceptionnel, le personnel respectera votre intimité et entrera dans votre chambre uniquement en votre présence. Vous pouvez recevoir des visites à tout moment (nous vous remercions cependant de nous prévenir en cas de visite avant 7h ou après 21h).
 
 Chaque chambre est équipée de volets en bois, de prises télévision, téléphone et internet, ainsi que de 5 prises électriques, et d'un dispositif d'appel malade. Chaque chambre dispose d’une salle d’eau indépendante avec douche adaptée aux personnes à mobilité réduite, lavabo, toilettes et dispositif d’appel malade.
 
-{% include carousel.html.liquid items=page.salle-eau %}
+{% include carousel.html.liquid items=page.salle-eau loading="lazy" %}
 
 ## Les espaces communs
 
 Plusieurs **salles à manger** sont réparties dans l'établissement, permettant en plus des repas en commun des résidents, de partager un repas avec ses proches en toute intimité. La salle à manger principale est également l'endroit privilégié de nombreuses animations (anniversaires, jeux de société, loto, atelier cuisine, atelier décoration...).
 
-{% include image.html.liquid type="default" path=page.sam.path alt=page.sam.alt caption=page.sam.caption %}
+{% include image.html.liquid type="default" path=page.sam.path alt=page.sam.alt caption=page.sam.caption loading="lazy" %}
 
 Plusieurs **petits salons** sont à votre disposition, équipés de table et chaises et d'une armoire de jeux de société, vous permettant de partager des moments entre résidents ou avec vos proches en dehors de votre chambre. Une bibliothèque est également à votre disposition au deuxième étage.
 
-{% include image.html.liquid type="default" path=page.coin.path alt=page.coin.alt caption=page.coin.caption %}
+{% include image.html.liquid type="default" path=page.coin.path alt=page.coin.alt caption=page.coin.caption loading="lazy" %}
 
 Les **terrasses extérieures** au rez-de-chaussée et au 1er étage sont équipées de chaises et parasols aux beaux jours. Une tonnelle est également installée à proximité de la cuisine de mai à septembre, permettant de prendre des repas en extérieur ou simplement de profiter d’un moment de calme dans la journée. Le **parc de 2 hectares** est à votre disposition. Une promenade goudronnée, accessible aux personnes à mobilité réduite, en fait le tour (env. 1 km).
 
-{% include carousel.html.liquid items=page.exterieur %}
+{% include carousel.html.liquid items=page.exterieur loading="lazy" %}
 
 La **chapelle** fait partie de l’histoire de la Maison Saint Vincent, elle est accessible de l’extérieur et de l’intérieur par tous les résidents qui le souhaitent pour les offices quotidiens ou festifs ainsi qu’en dehors des offices et pour des célébrations particulières (enterrement, à la demande des familles, baptêmes, anniversaires de mariage des résidents, jubilés des Sœurs, etc.).
 
-{% include carousel.html.liquid items=page.chapelle %}
+{% include carousel.html.liquid items=page.chapelle1 %}
 
 Enfin, si vos proches souhaient rester quelques jours auprès de vous, des chambres peuvent être louées à <a href="https://oasis.maisonstvincent.fr/"> l’Oasis</a> (notre accueil hôtelier situé dans l’enceinte de l’établissement).
 
-{% include image.html.liquid type="default" path=page.oasis.path alt=page.oasis.alt caption=page.oasis.caption %}
+{% include image.html.liquid type="default" path=page.oasis.path alt=page.oasis.alt caption=page.oasis.caption loading="lazy" %}
 
 # Votre vie quotidienne
 
@@ -188,6 +199,8 @@ Le linge de lit et la serviette de table sont fournis et entretenus par l’éta
 Le personnel de l'établissement assure **l'entretien courant des espaces communs**. L'entretien de la chambre et des sanitaires reste à la charge du résident (il peut l'assurer lui-même ou faire appel à des services d'aide à domicile extérieurs). Dans l'attente de validation d'une demande d'APA et de la mise en place des prestations, cet entretien peut être pris en chrage ponctuellement et temporairement par notre personnel.
 
 Les **petites réparations diverses** (électricité, plomberie, etc.) sont assurées par notre personnel dans les parties communes et privatives de l’établissement (veuillez noter cependant que le personnel d'entretien ne travaille pas le week-end). Les espaces verts sont également entretenus par notre personnel.
+
+{% include carousel.html.liquid items=page.espaces-commun loading="lazy" %}
 
 ## Les soins d'hygiène et de confort
 
@@ -210,6 +223,8 @@ Notre personnel propose des **animations variées**, selon les souhaits des rés
 ## Le culte
 
 Notre chapelle est en **libre accès** à tous (résidents, familles, personnel, etc.) à toute heure. La Communauté des Filles de la Charité se propose de rencontrer individuellement toute personne en manifestant le désir. Une **messe est célébrée quotidiennement** à 11h15 (10h30 le dimanche). Des messes exceptionnelles pourront être célébrées à d’autres moments en fonction des événements (fêtes religieuses, enterrements). Tous ces offices sont ouverts à tous (résidents, familles, personnel, voisins, etc.).
+
+{% include carousel.html.liquid items=page.chapelle2 loading="lazy" %}
 
 ## Les renseignements et questions
 
