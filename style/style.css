@@ -6,6 +6,10 @@
   text-rendering: optimizeLegibility;
 }
 
+:root {
+  --blue: #002060;
+}
+
 html {
   font-size: 1.3rem;
 }
@@ -18,7 +22,7 @@ header {
   text-align: center;
   width: 100%;
   margin-bottom: 20px;
-  color: #002060;
+  color: var(--blue);
 }
 
 header span {
@@ -33,7 +37,7 @@ header picture img {
 
 header a,
 .langue a {
-  color: #002060;
+  color: var(--blue);
   text-decoration: none;
 }
 
@@ -45,7 +49,7 @@ nav .oasis-container {
 nav .oasis {
   height: 6.3rem;
   background: #fff;
-  color: #002060;
+  color: var(--blue);
   text-align: center;
   font-weight: bold;
   border-radius: 0.5rem;
@@ -70,14 +74,14 @@ nav .oasis img {
   text-decoration: none;
   padding: 1em 2em;
   width: auto;
-  background: #002060;
+  background: var(--blue);
   color: #fff;
 }
 
 .btn.oasis-cta:hover {
   background-color: #fff;
-  color:#002060;
-  border: 1px solid #002060;
+  color:var(--blue);
+  border: 1px solid var(--blue);
 }
 
 .header {
@@ -91,7 +95,7 @@ nav .oasis img {
   text-align: center;
   width: 100%;
   color: white;
-  background-color: #002060;
+  background-color: var(--blue);
   padding: 0.5rem;
 }
 

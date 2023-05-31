@@ -1,0 +1,130 @@
+.relative { 
+  position: relative; 
+  aspect-ratio: 4 / 3;
+}
+.mod--hidden { overflow: hidden; }
+
+.invisible {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.carrousel__container {
+  white-space: nowrap;
+  max-width: calc( 100% - 50px);
+  margin: 0 auto;
+}
+.carrousel__control__list {
+  /*position: absolute;*/
+  list-style-type: none;
+  /*top: 100%;*/
+  right: 0;
+  left: 0;
+  margin: 0 0 0.5rem 0;
+  padding-left: 0;
+  text-align: center;
+}
+.carrousel__control__list__item {
+  display: inline-block;
+  margin: 0 .5em;
+}
+.carrousel__control__list__link {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background: #fff;
+  border: 1px solid var(--blue);
+  border-radius: 1em;
+  cursor: pointer;
+}
+
+.carrousel__button-container {
+  position: absolute;
+}
+.carrousel__button__previous {
+  top: 50%;
+  margin-top: -18px;
+  left: 0;
+  margin-left: 0;
+}
+.carrousel__button__next {
+  top: 50%;
+  margin-top: -18px;
+  right: 0;
+  margin-right: 0;
+}
+.carrousel__button__button {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+/* only for minimalist example */
+.carrousel__content[aria-hidden=true] {
+  display: none;
+}
+/* ------------------ State rules ------------------ */
+.carrousel__control__list__link:focus,
+.carrousel__control__list__link:hover,
+.carrousel__control__list__link:active,
+.carrousel__control__list__link[aria-selected=true] {
+  background: var(--blue);
+}
+.carrousel__control__list__link:focus,
+.carrousel__control__list__link:hover,
+.carrousel__control__list__link:active {
+  outline: 2px dotted #4d287f;
+}
+
+/* ------------------ transition slide ------------------ */
+.slide .carrousel__content {
+  display: inline-block;
+  vertical-align: top;
+  visibility: visible;
+  width: 100%;
+  position: relative;
+  transition: visibility 0s ease, transform .5s ease-in;
+  transition-delay: 0;
+  white-space: normal;
+}
+
+[data-carrousel-active-slide="1"].slide > .carrousel__content {
+  transform: translateX(0);
+}
+[data-carrousel-active-slide="2"].slide > .carrousel__content {
+  transform: translateX(-100%);
+}
+[data-carrousel-active-slide="3"].slide > .carrousel__content {
+  transform: translateX(-200%);
+}
+[data-carrousel-active-slide="4"].slide > .carrousel__content {
+  transform: translateX(-300%);
+}
+[data-carrousel-active-slide="5"].slide > .carrousel__content {
+  transform: translateX(-400%);
+}
+[data-carrousel-active-slide="6"].slide > .carrousel__content {
+  transform: translateX(-500%);
+}
+[data-carrousel-active-slide="7"].slide > .carrousel__content {
+  transform: translateX(-600%);
+}
+[data-carrousel-active-slide="8"].slide > .carrousel__content {
+  transform: translateX(-700%);
+}
+[data-carrousel-active-slide="9"].slide > .carrousel__content {
+  transform: translateX(-800%);
+}
+
+[data-carrousel-active-slide].slide > [aria-hidden="true"].carrousel__content {
+  visibility: hidden;
+  transition-delay: .5s, 0s;
+}
