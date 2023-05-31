@@ -6,14 +6,14 @@ permalink: /vie/
 
 chambre-vide:
   - alt: >-
-      Photo d'une chambre vide. Un des murs est de couleur, les autres ainsi que le chauffage sont très clairs, presque blancs. De la lumière rentre par la fenêtre, inondant la pièce. On aperçoit de multiples prises  ainsi qu'un dispositif avec un cable attaché dans le mur.
+      Photo d'une chambre vide. Un des murs est de couleur, les autres ainsi que le chauffage sont très clairs, presque blancs. De la lumière rentre par la fenêtre, inondant la pièce. On aperçoit de multiples prises  ainsi qu'un dispositif d'appel-malade avec un cable attaché dans le mur.
     caption: >-
       Récemment rénovée, nos chambres offrent calme et luminosité.
     path: /images/photos/chambre-potentiel-1.jpg
   - alt: >-
       Même chambre photographiée dans un autre angle, permettant de voir le placard et la penderie.
     caption: >-
-      Chaque chambre est équipée d’un placard, d’une penderie et si vous le souhaitez, d’un lit simple.
+      Chaque chambre est équipée d’un placard, d’une penderie et d’un lit simple.
     path: /images/photos/chambre-potentiel-2.jpg
 
 chambre-meublee:
@@ -35,7 +35,7 @@ salle-eau:
       Douche à l'italienne et coin lavabo, entièrement adaptés aux personnes à mobilité réduite.
     path: /images/photos/salle-eau-2.jpg
   - alt: >-
-      Même salee d'eau sous un autre angle, dévoilant la partie sanitaire et laissant apercevoir une cordelette de sécurité.
+      Même salle d'eau sous un autre angle, dévoilant la partie sanitaire et laissant apercevoir le cordon de l'appel-malade.
     caption: >-
       Des sanitaires également adaptés et un dispositif d'appel malade.
     path: /images/photos/salle-eau-1.jpg
@@ -125,7 +125,7 @@ espaces-commun:
   - alt: >-
       Un chariot en bois et céramique, rempli de plantes vertes, est calé sur le côté d'un couloir.
     caption: >-
-      Notre personnel prend soin des plantes vertes des résidents.
+      Les Soeurs de la communauté égayent les espaces communs par de nombreuses plantes vertes qu'elles entretiennent au quotidien. 
     path: /images/photos/vie-1.jpg
 
 chapelle2:
@@ -137,7 +137,7 @@ chapelle2:
   - alt: >-
       Une grande porte en bois, solennelle, menant au rez-de-chaussée de la chapelle.
     caption: >-
-      L'entrée du rez-de-chaussée est également empruntée par les visiteurs et des croyants du village.
+      L'entrée du rez-de-chaussée est également empruntée par les habitants de la commune lors des offices.
     path: /images/photos/chapelle-3.jpg
 
 ---
