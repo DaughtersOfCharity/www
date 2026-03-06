@@ -7,7 +7,7 @@ permalink: /admission/
 
 # Admission
 
-Nous accueillons des **personnes âgées de plus de 60 ans** (sauf dérogation du Conseil Départemental), **autonomes ou semi-autonomes**. En tant qu'EHPA, et ne disposant pas d'unité protégée ni de personnel infirmier, nous ne pouvons pas accueillir de personnes présentant des troubles cognitifs avancés, des troubles du comportement ou nécessitant une présence infirmière quotidienne.
+Nous accueillons  des **personnes âgées de plus de 60 ans** (sauf dérogation du Conseil Départemental), **autonomes ou semi-autonomes**. En tant qu'EHPA, et ne disposant pas d'unité protégée ni de personnel infirmier, nous ne pouvons pas accueillir de personnes présentant des troubles cognitifs avancés, des troubles du comportement ou nécessitant une présence infirmière quotidienne.
 
 Notre établissement est un **domicile**, et à ce titre, les résidents sont libres d'aller et venir dans l'enceinte du parc comme à l'extérieur de l'établissement.
 
@@ -27,18 +27,18 @@ Si vous souhaitez différer votre date d'entrée, vous avez la possibilité de *
 
 ## Hébergement
 
-Le **prix de journée est fixé à 57.00 €** pour l'année 2023. Il inclut l'hébergement et les charges afférentes (eau, électricité, chauffage), les repas (petit-déjeuner, déjeuner, goûter, dîner et collation de nuit), l'entretien du linge, les animations réalisées en interne par le personnel, l'entretien courant des espaces communs, la coordination du parcours de soins (rendez-vous de consultation, mise à jour du dossier médical, etc.) et les prestations d'administration générale.
+Le **prix de journée est fixé à 65.01 €** pour 2026. Il inclut l'hébergement et les charges afférentes (eau, électricité, chauffage), les repas (petit-déjeuner, déjeuner, goûter, dîner et collation de nuit), l'entretien du linge, les animations réalisées en interne par le personnel, l'entretien courant des espaces communs, la coordination du parcours de soins (rendez-vous de consultation, mise à jour du dossier médical, etc.) et les prestations d'administration générale.
 Ce tarif est **révisable tous les ans**, suite à la parution de l'arrêté du Ministère de l'économie.
 
 En cas d'absences, les 3 premières journées sont facturées à taux plein, puis une déduction est appliquée : 
 - de 40% des frais de séjour pour les **absences pour convenances personnelles**, dans la limite de 32 journées par an
-- du montant du **forfait hospitalier** (à ce jour s'élevant à 20 €) pour les absences pour hospitalisations, dans la limite de 32 journées par an. 
+- du montant du **forfait hospitalier** (à ce jour s'élevant à 23 €) pour les absences pour hospitalisations, dans la limite de 32 journées par an. 
 
 Au-delà de 32 jours par an, les absences sont de nouveau facturées à taux plein. 
 
 ## Autres prestations
 
-Les résidents ont la possibilité **d'inviter leurs proches à déjeuner**, le repas invité sera alors facturé au prix de 9 € (12 € pour les "repas de fête").
+Les résidents ont la possibilité **d'inviter leurs proches à déjeuner**, le repas invité sera alors facturé au prix de 12 € (18 € pour les "repas de fête").
 Il vous sera nécessaire de réserver les repas 48h à l'avance auprès de l'établissement.
 
 Une prestation de couture des marques sur les vêtements vous est proposée à hauteur de 50 € par trousseau. 
